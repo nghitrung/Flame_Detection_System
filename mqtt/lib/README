@@ -1,0 +1,33 @@
+Wifi Library setup for ESP32-S3 model
+
+the structure of the library is following below:
+
+|--lib
+|  |
+|  |--esp32_wifi
+|  |
+|  |  |--tools
+|  |  |
+|  |  |  |--get.exe
+
+You must run the environment setup utility:
+-Right-click get.exe and select "Run as Administrator".
+-
+
+Example contents of `src/main.c` using Foo and Bar:
+```
+#include <Foo.h>
+#include <Bar.h>
+
+int main (void)
+{
+  ...
+}
+
+```
+
+The PlatformIO Library Dependency Finder will find automatically dependent
+libraries by scanning project source files.
+
+More information about PlatformIO Library Dependency Finder
+- https://docs.platformio.org/page/librarymanager/ldf.html
