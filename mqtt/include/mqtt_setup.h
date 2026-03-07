@@ -1,8 +1,9 @@
-#ifdef __MQTT_H__
+#ifndef __MQTT_H__
 #define __MQTT_H__
 
 #include <global.h>
 
-void taskMqtt(void *vParameter);
-void MQTT_
+void mqtt_callback(char* topic, byte* payload, unsigned int length);
+void vTaskMqtt(void* pvParameters);
+
 #endif

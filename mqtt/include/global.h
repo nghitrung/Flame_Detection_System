@@ -7,6 +7,7 @@
 #include "freertos/semphr.h"
 
 extern SemaphoreHandle_t xMqttMutex;
+extern SemaphoreHandle_t xWifiMutex;
 
 
 #endif
