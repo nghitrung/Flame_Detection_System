@@ -6,7 +6,10 @@
 
 void setup() {
     Serial.begin(115200);
-    vTaskDelay(pdMS_TO_TICKS(1000)); 
+    unsigned long start = millis();
+    while (!Serial && (millis() - start < 3000)); 
+
+    Serial.println("\n=== HE THONG KHOI DONG ===");
 
     xWifiMutex = xSemaphoreCreateMutex();
     xMqttMutex = xSemaphoreCreateMutex();
@@ -16,12 +19,12 @@ void setup() {
         
         xTaskCreate(vTaskMqtt, "MQTT_Task", 4096, NULL, 2, NULL);
         
-        Serial.println("Hệ thống FreeRTOS đã khởi động...");
+        Serial.println("System is working!");
     } else {
-        Serial.println("Lỗi khởi tạo Mutex!");
+        Serial.println("Failed to create mutex!");
     }
 }
 
 void loop() {
-    vTaskDelay(pdMS_TO_TICKS(1000));
+    return;
 }

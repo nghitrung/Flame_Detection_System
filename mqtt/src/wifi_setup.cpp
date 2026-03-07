@@ -3,7 +3,7 @@
 #include "wifi_config.h"
 
 void vTaskWifi(void* pvParameters) {
-    for (;;) {
+    while (1) {
         if (WiFi.status() != WL_CONNECTED) {
             if (xSemaphoreTake(xWifiMutex, portMAX_DELAY) == pdTRUE) {
                 Serial.println("WiFi: Connecting...");

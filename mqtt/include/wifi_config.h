@@ -4,7 +4,7 @@
 #define WIFI_SSID       "Mai Quynh"
 #define WIFI_PASSWORD   "70739905"
 
-#define MQTT_SERVER     "172.24.168.18:1883" // Edit IP IPv4 of the computer
+#define MQTT_SERVER     "172.24.168.18" // Edit IP IPv4 of the computer
 #define MQTT_PORT       1883
 
 // === TOPICS ===

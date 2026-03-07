@@ -8,6 +8,6 @@
 
 extern SemaphoreHandle_t xMqttMutex;
 extern SemaphoreHandle_t xWifiMutex;
-
+extern SemaphoreHandle_t xSensorMutex;
 
 #endif
