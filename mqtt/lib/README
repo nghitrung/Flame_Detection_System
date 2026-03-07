@@ -1,18 +1,30 @@
-Wifi Library setup for ESP32-S3 model
+This directory is intended for project specific (private) libraries.
+PlatformIO will compile them to static libraries and link into the executable file.
 
-the structure of the library is following below:
+The source code of each library should be placed in a separate directory
+("lib/your_library_name/[Code]").
+
+For example, see the structure of the following example libraries `Foo` and `Bar`:
 
 |--lib
 |  |
-|  |--esp32_wifi
+|  |--Bar
+|  |  |--docs
+|  |  |--examples
+|  |  |--src
+|  |     |- Bar.c
+|  |     |- Bar.h
+|  |  |- library.json (optional. for custom build options, etc) https://docs.platformio.org/page/librarymanager/config.html
 |  |
-|  |  |--tools
-|  |  |
-|  |  |  |--get.exe
-
-You must run the environment setup utility:
--Right-click get.exe and select "Run as Administrator".
--
+|  |--Foo
+|  |  |- Foo.c
+|  |  |- Foo.h
+|  |
+|  |- README --> THIS FILE
+|
+|- platformio.ini
+|--src
+   |- main.c
 
 Example contents of `src/main.c` using Foo and Bar:
 ```
