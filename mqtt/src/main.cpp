@@ -1,13 +1,9 @@
-#include <WiFi.h>
-#include <PubSubClient.h>
+#include "global.h"
 
-
-void setup()
-{
-
+void setup() {
+    xTaskCreate();
 }
 
-void loop()
-{
+void loop() {
 
 }
