@@ -2,45 +2,62 @@
 #include <PubSubClient.h>
 #include "mqtt_setup.h"
 #include "global.h"
-#include "wifi_config.h"
+#include "config.h"
 
-WiFiClient espClient;
-PubSubClient client(espClient);
+// "172.24.168.18"
+// "1883"
 
-void mqtt_callback(char* topic, byte* payload, unsigned int length) {
-    String msg = "";
-    for (int i = 0; i < length; i++) msg += (char)payload[i];
-    Serial.printf("MQTT Message [%s]: %s\n", topic, msg.c_str());
+WiFiClient yoloClient;
+PubSubClient client(yoloClient);
+
+void mqtt_connect() {
+    client.setServer(mqtt_server, 1883);
+    
+    uint32_t t = millis();
+
+    while (!client.connected() && millis() - 1 < 5000) {
+        if (client.connected()) {
+            Serial.print("\nMQTT connected!");
+        } else {
+            Serial.print("\nMQTT connect time out ...");
+        }
+    }
+    
 }
 
 void vTaskMqtt(void* pvParameters) {
-    client.setServer(MQTT_SERVER, MQTT_PORT);
-    client.setCallback(mqtt_callback);
+    bool log = false;
 
     while (1) {
-        if (WiFi.status() == WL_CONNECTED) {
-            if (!client.connected()) {
-                if (xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdTRUE) {
-                    Serial.println("MQTT: Attempting connection...");
-                    String clientId = "YoloUno-" + String(random(0xffff), HEX);
-                    
-                    if (client.connect(clientId.c_str())) {
-                        Serial.println("MQTT: Connected!");
-                        client.subscribe(TOPIC_ALARM);
+        Serial.print("\nMQTT: Connecting...");
+        if (log) {
+            if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
+                Serial.print("\nMQTT still connect!");
+                xSemaphoreGive(xMqttMutex);
+            } 
+        } else {
+            if (client.connected()) {
+                if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
+                    Serial.print("\nMQTT Server"); Serial.println(mqtt_server);
+                    String clientID = "YoloUno-" + String(random(0xffff), HEX);
+                    if (client.connect(clientID.c_str())){
+                        Serial.print("\nMQTT: Connected!");
+                        client.subscribe(TOPIC_FLAME);
                     } else {
-                        Serial.print("MQTT: Failed, rc="); Serial.println(client.state());
+                        Serial.print("MQTT: Error = "); Serial.println(client.state());
                     }
                     xSemaphoreGive(xMqttMutex);
                 }
-            }
-
-            if (client.connected()) {
-                if (xSemaphoreTake(xMqttMutex, pdMS_TO_TICKS(10)) == pdTRUE) {
-                    client.loop();
+                log = true;
+            } else {
+                log = false;
+                if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
+                    Serial.print("\nMQTT is not connected!");
+                    mqtt_connect();
                     xSemaphoreGive(xMqttMutex);
                 }
             }
         }
-        vTaskDelay(pdMS_TO_TICKS(100)); // MQTT beat
+        vTaskDelay(pdMS_TO_TICKS(2000)); // MQTT beat
     }
 }
