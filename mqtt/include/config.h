@@ -1,12 +1,16 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define ssid "ng_trung"
-#define password "tuxinhdep"
+#define ssid "Mai Quynh"
+#define password "70739905"
 #define mqtt_server "broker.hivemq.com"
 
 // === TOPICS ===
-#define TOPIC_FLAME     "yolo_uno/sensor/flame"  
-#define TOPIC_ALARM     "yolo_uno/cmd/alarm"
+#define TOPIC_FLAME "yolo_uno/sensors/flame"
+#define TOPIC_DHT20
+#define TOPIC_SMOKE "yolo_uno/sensors/smoke"
+#define TOPIC_BUZZER
+#define TOPIC_ALARM   
+#define TOPIC_PUMP
 
 #endif
