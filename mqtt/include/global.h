@@ -10,6 +10,7 @@
 #define SMOKE2_PIN A1
 #define FLAME1_PIN A2
 #define FLAME2_PIN A3
+#define BUZZER 
 
 extern float smoke[2][3]; /*[{CO_PER1, LPG_PER1, SMOKE_PER1}
                              {CO_PER2, LPG_PER2, SMOKE_PER2}]*/ 
