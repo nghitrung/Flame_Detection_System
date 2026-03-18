@@ -1382,3 +1382,11 @@ To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
 1773847583: mosquitto version 2.1.2 running
 1773847590: New connection from 172.19.0.1:41724 on port 1883.
 1773847590: New client connected from 172.19.0.1:41724 as Sensor-3ebb (p4, c1, k15, u'Flame_Detection_System').
+1773849220: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773849220: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773849220: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773849220: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
