@@ -1,0 +1,108 @@
+1773849362: mosquitto version 2.1.2 starting
+1773849362: Config loaded from /mosquitto/config/mosquitto.conf.
+1773849362: Bridge support available.
+1773849362: Persistence support available.
+1773849362: TLS support available.
+1773849362: TLS-PSK support available.
+1773849362: Websockets support available.
+1773849362: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773849362: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773849362: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773849362: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773849362: Opening ipv4 listen socket on port 1883.
+1773849362: Opening ipv6 listen socket on port 1883.
+1773849362: Opening ipv4 listen socket on port 9001.
+1773849362: Opening ipv6 listen socket on port 9001.
+1773849362: mosquitto version 2.1.2 running
+1773849367: New connection from 172.20.0.4:39354 on port 1883.
+1773849367: Client afes-backend-client [172.20.0.4:39354] disconnected: not authorised.
+1773849367: New connection from 172.20.0.4:39368 on port 1883.
+1773849368: Client afes-backend-client [172.20.0.4:39368] disconnected: not authorised.
+1773849368: New connection from 172.20.0.4:39378 on port 1883.
+1773849368: Client afes-backend-client [172.20.0.4:39378] disconnected: not authorised.
+1773849368: New connection from 172.20.0.4:39384 on port 1883.
+1773849368: Client afes-backend-client [172.20.0.4:39384] disconnected: not authorised.
+1773849370: New connection from 172.20.0.4:39392 on port 1883.
+1773849371: Client afes-backend-client [172.20.0.4:39392] disconnected: not authorised.
+1773849371: New connection from 172.20.0.4:39400 on port 1883.
+1773849371: Client afes-backend-client [172.20.0.4:39400] disconnected: not authorised.
+1773849375: New connection from 172.20.0.4:39416 on port 1883.
+1773849375: Client afes-backend-client [172.20.0.4:39416] disconnected: not authorised.
+1773849375: New connection from 172.20.0.4:33166 on port 1883.
+1773849376: Client afes-backend-client [172.20.0.4:33166] disconnected: not authorised.
+1773849384: New connection from 172.20.0.4:33182 on port 1883.
+1773849384: Client afes-backend-client [172.20.0.4:33182] disconnected: not authorised.
+1773849384: New connection from 172.20.0.4:33186 on port 1883.
+1773849384: Client afes-backend-client [172.20.0.4:33186] disconnected: not authorised.
+1773849400: New connection from 172.20.0.4:34982 on port 1883.
+1773849400: Client afes-backend-client [172.20.0.4:34982] disconnected: not authorised.
+1773849400: New connection from 172.20.0.4:34996 on port 1883.
+1773849401: Client afes-backend-client [172.20.0.4:34996] disconnected: not authorised.
+1773849433: New connection from 172.20.0.4:44344 on port 1883.
+1773849433: Client afes-backend-client [172.20.0.4:44344] disconnected: not authorised.
+1773849433: New connection from 172.20.0.4:44346 on port 1883.
+1773849433: Client afes-backend-client [172.20.0.4:44346] disconnected: not authorised.
+1773849498: New connection from 172.20.0.4:43416 on port 1883.
+1773849498: Client afes-backend-client [172.20.0.4:43416] disconnected: not authorised.
+1773849498: New connection from 172.20.0.4:43420 on port 1883.
+1773849498: Client afes-backend-client [172.20.0.4:43420] disconnected: not authorised.
+1773849626: New connection from 172.20.0.4:58974 on port 1883.
+1773849627: Client afes-backend-client [172.20.0.4:58974] disconnected: not authorised.
+1773849627: New connection from 172.20.0.4:58988 on port 1883.
+1773849627: Client afes-backend-client [172.20.0.4:58988] disconnected: not authorised.
+1773849735: mosquitto version 2.1.2 terminating
+1773849735: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773849945: mosquitto version 2.1.2 starting
+1773849945: Config loaded from /mosquitto/config/mosquitto.conf.
+1773849945: Bridge support available.
+1773849945: Persistence support available.
+1773849945: TLS support available.
+1773849945: TLS-PSK support available.
+1773849945: Websockets support available.
+1773849945: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773849945: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773849945: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773849945: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773849945: Opening ipv4 listen socket on port 1883.
+1773849945: Opening ipv6 listen socket on port 1883.
+1773849945: Opening ipv4 listen socket on port 9001.
+1773849945: Opening ipv6 listen socket on port 9001.
+1773849945: mosquitto version 2.1.2 running
+1773849954: New connection from 172.20.0.4:47464 on port 1883.
+1773849954: Client afes-backend-client [172.20.0.4:47464] disconnected: not authorised.
+1773849954: New connection from 172.20.0.4:47468 on port 1883.
+1773849955: Client afes-backend-client [172.20.0.4:47468] disconnected: not authorised.
+1773849955: New connection from 172.20.0.4:47478 on port 1883.
+1773849955: Client afes-backend-client [172.20.0.4:47478] disconnected: not authorised.
+1773849955: New connection from 172.20.0.4:47480 on port 1883.
+1773849955: Client afes-backend-client [172.20.0.4:47480] disconnected: not authorised.
+1773849957: New connection from 172.20.0.4:54414 on port 1883.
+1773849958: Client afes-backend-client [172.20.0.4:54414] disconnected: not authorised.
+1773849958: New connection from 172.20.0.4:54424 on port 1883.
+1773849958: Client afes-backend-client [172.20.0.4:54424] disconnected: not authorised.
+1773849962: New connection from 172.20.0.4:54426 on port 1883.
+1773849962: Client afes-backend-client [172.20.0.4:54426] disconnected: not authorised.
+1773849962: New connection from 172.20.0.4:54440 on port 1883.
+1773849962: Client afes-backend-client [172.20.0.4:54440] disconnected: not authorised.
+1773849970: New connection from 172.20.0.4:58278 on port 1883.
+1773849971: Client afes-backend-client [172.20.0.4:58278] disconnected: not authorised.
+1773849971: New connection from 172.20.0.4:58288 on port 1883.
+1773849971: Client afes-backend-client [172.20.0.4:58288] disconnected: not authorised.
+1773849987: New connection from 172.20.0.4:50236 on port 1883.
+1773849987: Client afes-backend-client [172.20.0.4:50236] disconnected: not authorised.
+1773849987: New connection from 172.20.0.4:50248 on port 1883.
+1773849988: Client afes-backend-client [172.20.0.4:50248] disconnected: not authorised.
+1773850020: New connection from 172.20.0.4:57756 on port 1883.
+1773850020: Client afes-backend-client [172.20.0.4:57756] disconnected: not authorised.
+1773850020: New connection from 172.20.0.4:57760 on port 1883.
+1773850020: Client afes-backend-client [172.20.0.4:57760] disconnected: not authorised.
+1773850087: mosquitto version 2.1.2 terminating
+1773850087: Saving in-memory database to /mosquitto/data//moquistto.db.
