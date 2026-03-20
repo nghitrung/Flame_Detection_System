@@ -10,6 +10,24 @@ PubSubClient client(yoloClient);
 long lastPublishTime = 0;
 const long publishInterval = 3000;
 
+void callback(char* topic, byte* payload, unsigned int length) {
+Serial.print("\nMessage arrived [");
+    Serial.print(topic);
+    Serial.print("] ");
+    
+    String message;
+    for (int i = 0; i < length; i++) {
+        message += (char)payload[i];
+    }
+    Serial.println(message);
+
+    if (String(topic) == "home/commands") {
+        if (message == "OFF") {
+            Serial.println("System is stopped");
+        }
+    }
+}
+
 String packageData(const char* topic) {
     JsonDocument doc;
     char buffer[256];
@@ -39,6 +57,7 @@ String packageData(const char* topic) {
 
 void vTaskMqtt(void* pvParameters) {
     client.setServer(mqtt_server, 1883);
+    client.setCallback(callback);
     while (1) {
         if (WiFi.status() == WL_CONNECTED) {
             if (!client.connected()) {

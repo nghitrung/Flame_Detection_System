@@ -1423,3 +1423,1280 @@ To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
 
 1773931166: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
 
+1773992935: mosquitto version 2.1.2 starting
+1773992935: Config loaded from /mosquitto/config/mosquitto.conf.
+1773992935: Bridge support available.
+1773992935: Persistence support available.
+1773992935: TLS support available.
+1773992935: TLS-PSK support available.
+1773992935: Websockets support available.
+1773992935: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773992935: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773992935: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773992935: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773992935: Opening ipv4 listen socket on port 1883.
+1773992935: Opening ipv6 listen socket on port 1883.
+1773992935: Opening ipv4 listen socket on port 9001.
+1773992935: Opening ipv6 listen socket on port 9001.
+1773992935: mosquitto version 2.1.2 running
+1773992946: mosquitto version 2.1.2 terminating
+1773992946: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773992946: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773992946: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773992946: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773993834: mosquitto version 2.1.2 starting
+1773993834: Config loaded from /mosquitto/config/mosquitto.conf.
+1773993834: Bridge support available.
+1773993834: Persistence support available.
+1773993834: TLS support available.
+1773993834: TLS-PSK support available.
+1773993834: Websockets support available.
+1773993834: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773993834: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773993834: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773993834: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773993834: Opening ipv4 listen socket on port 1883.
+1773993834: Opening ipv6 listen socket on port 1883.
+1773993834: Opening ipv4 listen socket on port 9001.
+1773993834: Opening ipv6 listen socket on port 9001.
+1773993834: mosquitto version 2.1.2 running
+1773993846: mosquitto version 2.1.2 terminating
+1773993846: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773993846: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773993846: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773993846: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773993978: mosquitto version 2.1.2 starting
+1773993978: Config loaded from /mosquitto/config/mosquitto.conf.
+1773993978: Bridge support available.
+1773993978: Persistence support available.
+1773993978: TLS support available.
+1773993978: TLS-PSK support available.
+1773993978: Websockets support available.
+1773993978: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773993978: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773993978: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773993978: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773993978: Opening ipv4 listen socket on port 1883.
+1773993978: Opening ipv6 listen socket on port 1883.
+1773993978: Opening ipv4 listen socket on port 9001.
+1773993978: Opening ipv6 listen socket on port 9001.
+1773993978: mosquitto version 2.1.2 running
+1773994126: mosquitto version 2.1.2 terminating
+1773994126: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773994126: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773994126: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773994126: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773994128: mosquitto version 2.1.2 starting
+1773994128: Config loaded from /mosquitto/config/mosquitto.conf.
+1773994128: Bridge support available.
+1773994128: Persistence support available.
+1773994128: TLS support available.
+1773994128: TLS-PSK support available.
+1773994128: Websockets support available.
+1773994128: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773994128: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773994128: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773994128: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773994128: Opening ipv4 listen socket on port 1883.
+1773994128: Opening ipv6 listen socket on port 1883.
+1773994128: Opening ipv4 listen socket on port 9001.
+1773994128: Opening ipv6 listen socket on port 9001.
+1773994128: mosquitto version 2.1.2 running
+1773994466: mosquitto version 2.1.2 terminating
+1773994466: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773994466: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773994466: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773994466: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773994467: mosquitto version 2.1.2 starting
+1773994467: Config loaded from /mosquitto/config/mosquitto.conf.
+1773994467: Bridge support available.
+1773994467: Persistence support available.
+1773994467: TLS support available.
+1773994467: TLS-PSK support available.
+1773994467: Websockets support available.
+1773994467: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773994467: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773994467: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773994467: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773994467: Opening ipv4 listen socket on port 1883.
+1773994467: Opening ipv6 listen socket on port 1883.
+1773994467: Opening ipv4 listen socket on port 9001.
+1773994467: Opening ipv6 listen socket on port 9001.
+1773994467: mosquitto version 2.1.2 running
+1773994644: New connection from 172.19.0.4:53632 on port 1883.
+1773994644: Client mqttjs_7265cc69 [172.19.0.4:53632] disconnected: not authorised.
+1773994645: New connection from 172.19.0.4:53640 on port 1883.
+1773994645: Client mqttjs_7265cc69 [172.19.0.4:53640] disconnected: not authorised.
+1773994646: New connection from 172.19.0.4:53654 on port 1883.
+1773994646: Client mqttjs_7265cc69 [172.19.0.4:53654] disconnected: not authorised.
+1773994647: New connection from 172.19.0.4:53660 on port 1883.
+1773994647: Client mqttjs_7265cc69 [172.19.0.4:53660] disconnected: not authorised.
+1773994648: New connection from 172.19.0.4:53668 on port 1883.
+1773994648: Client mqttjs_7265cc69 [172.19.0.4:53668] disconnected: not authorised.
+1773994649: New connection from 172.19.0.4:53684 on port 1883.
+1773994649: Client mqttjs_7265cc69 [172.19.0.4:53684] disconnected: not authorised.
+1773994650: New connection from 172.19.0.4:53690 on port 1883.
+1773994650: Client mqttjs_7265cc69 [172.19.0.4:53690] disconnected: not authorised.
+1773994651: New connection from 172.19.0.4:53704 on port 1883.
+1773994651: Client mqttjs_7265cc69 [172.19.0.4:53704] disconnected: not authorised.
+1773994652: New connection from 172.19.0.4:53720 on port 1883.
+1773994652: Client mqttjs_7265cc69 [172.19.0.4:53720] disconnected: not authorised.
+1773994653: New connection from 172.19.0.4:52092 on port 1883.
+1773994653: Client mqttjs_7265cc69 [172.19.0.4:52092] disconnected: not authorised.
+1773994654: New connection from 172.19.0.4:52098 on port 1883.
+1773994654: Client mqttjs_7265cc69 [172.19.0.4:52098] disconnected: not authorised.
+1773994655: New connection from 172.19.0.4:52102 on port 1883.
+1773994655: Client mqttjs_7265cc69 [172.19.0.4:52102] disconnected: not authorised.
+1773994656: New connection from 172.19.0.4:52114 on port 1883.
+1773994656: Client mqttjs_7265cc69 [172.19.0.4:52114] disconnected: not authorised.
+1773994657: New connection from 172.19.0.4:52128 on port 1883.
+1773994657: Client mqttjs_7265cc69 [172.19.0.4:52128] disconnected: not authorised.
+1773994658: New connection from 172.19.0.4:52140 on port 1883.
+1773994658: Client mqttjs_7265cc69 [172.19.0.4:52140] disconnected: not authorised.
+1773994659: New connection from 172.19.0.4:52148 on port 1883.
+1773994659: Client mqttjs_7265cc69 [172.19.0.4:52148] disconnected: not authorised.
+1773994660: New connection from 172.19.0.4:52154 on port 1883.
+1773994660: Client mqttjs_7265cc69 [172.19.0.4:52154] disconnected: not authorised.
+1773994661: New connection from 172.19.0.4:52164 on port 1883.
+1773994661: Client mqttjs_7265cc69 [172.19.0.4:52164] disconnected: not authorised.
+1773994660: New connection from 172.19.0.4:52176 on port 1883.
+1773994660: Client mqttjs_7265cc69 [172.19.0.4:52176] disconnected: not authorised.
+1773994661: New connection from 172.19.0.4:60306 on port 1883.
+1773994661: Client mqttjs_7265cc69 [172.19.0.4:60306] disconnected: not authorised.
+1773994662: New connection from 172.19.0.4:60314 on port 1883.
+1773994662: Client mqttjs_7265cc69 [172.19.0.4:60314] disconnected: not authorised.
+1773994663: New connection from 172.19.0.4:60316 on port 1883.
+1773994663: Client mqttjs_7265cc69 [172.19.0.4:60316] disconnected: not authorised.
+1773994664: New connection from 172.19.0.4:60326 on port 1883.
+1773994664: Client mqttjs_7265cc69 [172.19.0.4:60326] disconnected: not authorised.
+1773994665: New connection from 172.19.0.4:60334 on port 1883.
+1773994665: Client mqttjs_7265cc69 [172.19.0.4:60334] disconnected: not authorised.
+1773994666: New connection from 172.19.0.4:60336 on port 1883.
+1773994666: Client mqttjs_7265cc69 [172.19.0.4:60336] disconnected: not authorised.
+1773994667: New connection from 172.19.0.4:60348 on port 1883.
+1773994667: Client mqttjs_7265cc69 [172.19.0.4:60348] disconnected: not authorised.
+1773994668: New connection from 172.19.0.4:60350 on port 1883.
+1773994668: Client mqttjs_7265cc69 [172.19.0.4:60350] disconnected: not authorised.
+1773994669: New connection from 172.19.0.4:60360 on port 1883.
+1773994669: Client mqttjs_7265cc69 [172.19.0.4:60360] disconnected: not authorised.
+1773994670: New connection from 172.19.0.4:60370 on port 1883.
+1773994670: Client mqttjs_7265cc69 [172.19.0.4:60370] disconnected: not authorised.
+1773994671: New connection from 172.19.0.4:45972 on port 1883.
+1773994671: Client mqttjs_7265cc69 [172.19.0.4:45972] disconnected: not authorised.
+1773994672: New connection from 172.19.0.4:45974 on port 1883.
+1773994672: Client mqttjs_7265cc69 [172.19.0.4:45974] disconnected: not authorised.
+1773994673: New connection from 172.19.0.4:45990 on port 1883.
+1773994673: Client mqttjs_7265cc69 [172.19.0.4:45990] disconnected: not authorised.
+1773994674: New connection from 172.19.0.4:46006 on port 1883.
+1773994674: Client mqttjs_7265cc69 [172.19.0.4:46006] disconnected: not authorised.
+1773994675: New connection from 172.19.0.4:46020 on port 1883.
+1773994675: Client mqttjs_7265cc69 [172.19.0.4:46020] disconnected: not authorised.
+1773994676: New connection from 172.19.0.4:46030 on port 1883.
+1773994676: Client mqttjs_7265cc69 [172.19.0.4:46030] disconnected: not authorised.
+1773994677: New connection from 172.19.0.4:46038 on port 1883.
+1773994677: Client mqttjs_7265cc69 [172.19.0.4:46038] disconnected: not authorised.
+1773994678: New connection from 172.19.0.4:46046 on port 1883.
+1773994678: Client mqttjs_7265cc69 [172.19.0.4:46046] disconnected: not authorised.
+1773994679: New connection from 172.19.0.4:46062 on port 1883.
+1773994679: Client mqttjs_7265cc69 [172.19.0.4:46062] disconnected: not authorised.
+1773994680: New connection from 172.19.0.4:46070 on port 1883.
+1773994680: Client mqttjs_7265cc69 [172.19.0.4:46070] disconnected: not authorised.
+1773994681: New connection from 172.19.0.4:52454 on port 1883.
+1773994681: Client mqttjs_7265cc69 [172.19.0.4:52454] disconnected: not authorised.
+1773994682: New connection from 172.19.0.4:52470 on port 1883.
+1773994682: Client mqttjs_7265cc69 [172.19.0.4:52470] disconnected: not authorised.
+1773994683: New connection from 172.19.0.4:52478 on port 1883.
+1773994683: Client mqttjs_7265cc69 [172.19.0.4:52478] disconnected: not authorised.
+1773994684: New connection from 172.19.0.4:52482 on port 1883.
+1773994684: Client mqttjs_7265cc69 [172.19.0.4:52482] disconnected: not authorised.
+1773994685: New connection from 172.19.0.4:52490 on port 1883.
+1773994685: Client mqttjs_7265cc69 [172.19.0.4:52490] disconnected: not authorised.
+1773994686: New connection from 172.19.0.4:52502 on port 1883.
+1773994686: Client mqttjs_7265cc69 [172.19.0.4:52502] disconnected: not authorised.
+1773994687: New connection from 172.19.0.4:52518 on port 1883.
+1773994687: Client mqttjs_7265cc69 [172.19.0.4:52518] disconnected: not authorised.
+1773994688: New connection from 172.19.0.4:52524 on port 1883.
+1773994688: Client mqttjs_7265cc69 [172.19.0.4:52524] disconnected: not authorised.
+1773994689: New connection from 172.19.0.4:52538 on port 1883.
+1773994689: Client mqttjs_7265cc69 [172.19.0.4:52538] disconnected: not authorised.
+1773994688: New connection from 172.19.0.4:52552 on port 1883.
+1773994688: Client mqttjs_7265cc69 [172.19.0.4:52552] disconnected: not authorised.
+1773994689: New connection from 172.19.0.4:59968 on port 1883.
+1773994689: Client mqttjs_7265cc69 [172.19.0.4:59968] disconnected: not authorised.
+1773994690: New connection from 172.19.0.4:59972 on port 1883.
+1773994690: Client mqttjs_7265cc69 [172.19.0.4:59972] disconnected: not authorised.
+1773994691: New connection from 172.19.0.4:59982 on port 1883.
+1773994691: Client mqttjs_7265cc69 [172.19.0.4:59982] disconnected: not authorised.
+1773994692: New connection from 172.19.0.4:59986 on port 1883.
+1773994692: Client mqttjs_7265cc69 [172.19.0.4:59986] disconnected: not authorised.
+1773994693: New connection from 172.19.0.4:60002 on port 1883.
+1773994693: Client mqttjs_7265cc69 [172.19.0.4:60002] disconnected: not authorised.
+1773994694: New connection from 172.19.0.4:60004 on port 1883.
+1773994694: Client mqttjs_7265cc69 [172.19.0.4:60004] disconnected: not authorised.
+1773994695: New connection from 172.19.0.4:60014 on port 1883.
+1773994695: Client mqttjs_7265cc69 [172.19.0.4:60014] disconnected: not authorised.
+1773994696: New connection from 172.19.0.4:60026 on port 1883.
+1773994696: Client mqttjs_7265cc69 [172.19.0.4:60026] disconnected: not authorised.
+1773994697: New connection from 172.19.0.4:60032 on port 1883.
+1773994697: Client mqttjs_7265cc69 [172.19.0.4:60032] disconnected: not authorised.
+1773994698: New connection from 172.19.0.4:60044 on port 1883.
+1773994698: Client mqttjs_7265cc69 [172.19.0.4:60044] disconnected: not authorised.
+1773994699: New connection from 172.19.0.4:52876 on port 1883.
+1773994699: Client mqttjs_7265cc69 [172.19.0.4:52876] disconnected: not authorised.
+1773994700: New connection from 172.19.0.4:52884 on port 1883.
+1773994700: Client mqttjs_7265cc69 [172.19.0.4:52884] disconnected: not authorised.
+1773994701: New connection from 172.19.0.4:52890 on port 1883.
+1773994701: Client mqttjs_7265cc69 [172.19.0.4:52890] disconnected: not authorised.
+1773994702: New connection from 172.19.0.4:52898 on port 1883.
+1773994702: Client mqttjs_7265cc69 [172.19.0.4:52898] disconnected: not authorised.
+1773994703: New connection from 172.19.0.4:52906 on port 1883.
+1773994703: Client mqttjs_7265cc69 [172.19.0.4:52906] disconnected: not authorised.
+1773994704: New connection from 172.19.0.4:52914 on port 1883.
+1773994704: Client mqttjs_7265cc69 [172.19.0.4:52914] disconnected: not authorised.
+1773994705: New connection from 172.19.0.4:52926 on port 1883.
+1773994705: Client mqttjs_7265cc69 [172.19.0.4:52926] disconnected: not authorised.
+1773994706: New connection from 172.19.0.4:52930 on port 1883.
+1773994706: Client mqttjs_7265cc69 [172.19.0.4:52930] disconnected: not authorised.
+1773994707: New connection from 172.19.0.4:52938 on port 1883.
+1773994707: Client mqttjs_7265cc69 [172.19.0.4:52938] disconnected: not authorised.
+1773994708: New connection from 172.19.0.4:52946 on port 1883.
+1773994708: Client mqttjs_7265cc69 [172.19.0.4:52946] disconnected: not authorised.
+1773994709: New connection from 172.19.0.4:50016 on port 1883.
+1773994709: Client mqttjs_7265cc69 [172.19.0.4:50016] disconnected: not authorised.
+1773994710: New connection from 172.19.0.4:50030 on port 1883.
+1773994710: Client mqttjs_7265cc69 [172.19.0.4:50030] disconnected: not authorised.
+1773994711: New connection from 172.19.0.4:50038 on port 1883.
+1773994711: Client mqttjs_7265cc69 [172.19.0.4:50038] disconnected: not authorised.
+1773994712: New connection from 172.19.0.4:50054 on port 1883.
+1773994712: Client mqttjs_7265cc69 [172.19.0.4:50054] disconnected: not authorised.
+1773994713: New connection from 172.19.0.4:50070 on port 1883.
+1773994713: Client mqttjs_7265cc69 [172.19.0.4:50070] disconnected: not authorised.
+1773994714: New connection from 172.19.0.4:50072 on port 1883.
+1773994714: Client mqttjs_7265cc69 [172.19.0.4:50072] disconnected: not authorised.
+1773994715: New connection from 172.19.0.4:50078 on port 1883.
+1773994715: Client mqttjs_7265cc69 [172.19.0.4:50078] disconnected: not authorised.
+1773994716: New connection from 172.19.0.4:50084 on port 1883.
+1773994716: Client mqttjs_7265cc69 [172.19.0.4:50084] disconnected: not authorised.
+1773994717: New connection from 172.19.0.4:50094 on port 1883.
+1773994717: Client mqttjs_7265cc69 [172.19.0.4:50094] disconnected: not authorised.
+1773994716: New connection from 172.19.0.4:50106 on port 1883.
+1773994716: Client mqttjs_7265cc69 [172.19.0.4:50106] disconnected: not authorised.
+1773994717: New connection from 172.19.0.4:34438 on port 1883.
+1773994717: Client mqttjs_7265cc69 [172.19.0.4:34438] disconnected: not authorised.
+1773994718: New connection from 172.19.0.4:34454 on port 1883.
+1773994718: Client mqttjs_7265cc69 [172.19.0.4:34454] disconnected: not authorised.
+1773994719: New connection from 172.19.0.4:34470 on port 1883.
+1773994719: Client mqttjs_7265cc69 [172.19.0.4:34470] disconnected: not authorised.
+1773994720: New connection from 172.19.0.4:34476 on port 1883.
+1773994720: Client mqttjs_7265cc69 [172.19.0.4:34476] disconnected: not authorised.
+1773994721: New connection from 172.19.0.4:34492 on port 1883.
+1773994721: Client mqttjs_7265cc69 [172.19.0.4:34492] disconnected: not authorised.
+1773994722: New connection from 172.19.0.4:34494 on port 1883.
+1773994722: Client mqttjs_7265cc69 [172.19.0.4:34494] disconnected: not authorised.
+1773994723: New connection from 172.19.0.4:34500 on port 1883.
+1773994723: Client mqttjs_7265cc69 [172.19.0.4:34500] disconnected: not authorised.
+1773994724: New connection from 172.19.0.4:34506 on port 1883.
+1773994724: Client mqttjs_7265cc69 [172.19.0.4:34506] disconnected: not authorised.
+1773994725: New connection from 172.19.0.4:34518 on port 1883.
+1773994725: Client mqttjs_7265cc69 [172.19.0.4:34518] disconnected: not authorised.
+1773994726: New connection from 172.19.0.4:36738 on port 1883.
+1773994726: Client mqttjs_7265cc69 [172.19.0.4:36738] disconnected: not authorised.
+1773994727: New connection from 172.19.0.4:36750 on port 1883.
+1773994727: Client mqttjs_7265cc69 [172.19.0.4:36750] disconnected: not authorised.
+1773994728: New connection from 172.19.0.4:36766 on port 1883.
+1773994728: Client mqttjs_7265cc69 [172.19.0.4:36766] disconnected: not authorised.
+1773994729: New connection from 172.19.0.4:36780 on port 1883.
+1773994729: Client mqttjs_7265cc69 [172.19.0.4:36780] disconnected: not authorised.
+1773994730: New connection from 172.19.0.4:36796 on port 1883.
+1773994730: Client mqttjs_7265cc69 [172.19.0.4:36796] disconnected: not authorised.
+1773994731: New connection from 172.19.0.4:36798 on port 1883.
+1773994731: Client mqttjs_7265cc69 [172.19.0.4:36798] disconnected: not authorised.
+1773994732: New connection from 172.19.0.4:36802 on port 1883.
+1773994732: Client mqttjs_7265cc69 [172.19.0.4:36802] disconnected: not authorised.
+1773994733: New connection from 172.19.0.4:36814 on port 1883.
+1773994733: Client mqttjs_7265cc69 [172.19.0.4:36814] disconnected: not authorised.
+1773994734: New connection from 172.19.0.4:36820 on port 1883.
+1773994734: Client mqttjs_7265cc69 [172.19.0.4:36820] disconnected: not authorised.
+1773994735: New connection from 172.19.0.4:36834 on port 1883.
+1773994735: Client mqttjs_7265cc69 [172.19.0.4:36834] disconnected: not authorised.
+1773994736: New connection from 172.19.0.4:36626 on port 1883.
+1773994736: Client mqttjs_7265cc69 [172.19.0.4:36626] disconnected: not authorised.
+1773994737: New connection from 172.19.0.4:36638 on port 1883.
+1773994737: Client mqttjs_7265cc69 [172.19.0.4:36638] disconnected: not authorised.
+1773994738: New connection from 172.19.0.4:36646 on port 1883.
+1773994738: Client mqttjs_7265cc69 [172.19.0.4:36646] disconnected: not authorised.
+1773994739: New connection from 172.19.0.4:36662 on port 1883.
+1773994739: Client mqttjs_7265cc69 [172.19.0.4:36662] disconnected: not authorised.
+1773994740: New connection from 172.19.0.4:36672 on port 1883.
+1773994740: Client mqttjs_7265cc69 [172.19.0.4:36672] disconnected: not authorised.
+1773994741: New connection from 172.19.0.4:36688 on port 1883.
+1773994741: Client mqttjs_7265cc69 [172.19.0.4:36688] disconnected: not authorised.
+1773994742: New connection from 172.19.0.4:36690 on port 1883.
+1773994742: Client mqttjs_7265cc69 [172.19.0.4:36690] disconnected: not authorised.
+1773994743: New connection from 172.19.0.4:36694 on port 1883.
+1773994743: Client mqttjs_7265cc69 [172.19.0.4:36694] disconnected: not authorised.
+1773994744: New connection from 172.19.0.4:36702 on port 1883.
+1773994744: Client mqttjs_7265cc69 [172.19.0.4:36702] disconnected: not authorised.
+1773994745: New connection from 172.19.0.4:36714 on port 1883.
+1773994745: Client mqttjs_7265cc69 [172.19.0.4:36714] disconnected: not authorised.
+1773994744: New connection from 172.19.0.4:40814 on port 1883.
+1773994744: Client mqttjs_7265cc69 [172.19.0.4:40814] disconnected: not authorised.
+1773994745: New connection from 172.19.0.4:40816 on port 1883.
+1773994745: Client mqttjs_7265cc69 [172.19.0.4:40816] disconnected: not authorised.
+1773994746: New connection from 172.19.0.4:40818 on port 1883.
+1773994746: Client mqttjs_7265cc69 [172.19.0.4:40818] disconnected: not authorised.
+1773994747: New connection from 172.19.0.4:40824 on port 1883.
+1773994747: Client mqttjs_7265cc69 [172.19.0.4:40824] disconnected: not authorised.
+1773994748: New connection from 172.19.0.4:40828 on port 1883.
+1773994748: Client mqttjs_7265cc69 [172.19.0.4:40828] disconnected: not authorised.
+1773994749: New connection from 172.19.0.4:40832 on port 1883.
+1773994749: Client mqttjs_7265cc69 [172.19.0.4:40832] disconnected: not authorised.
+1773994750: New connection from 172.19.0.4:40838 on port 1883.
+1773994750: Client mqttjs_7265cc69 [172.19.0.4:40838] disconnected: not authorised.
+1773994751: New connection from 172.19.0.4:40846 on port 1883.
+1773994751: Client mqttjs_7265cc69 [172.19.0.4:40846] disconnected: not authorised.
+1773994752: New connection from 172.19.0.4:40860 on port 1883.
+1773994752: Client mqttjs_7265cc69 [172.19.0.4:40860] disconnected: not authorised.
+1773994753: New connection from 172.19.0.4:40862 on port 1883.
+1773994753: Client mqttjs_7265cc69 [172.19.0.4:40862] disconnected: not authorised.
+1773994754: New connection from 172.19.0.4:36856 on port 1883.
+1773994754: Client mqttjs_7265cc69 [172.19.0.4:36856] disconnected: not authorised.
+1773994755: New connection from 172.19.0.4:36872 on port 1883.
+1773994755: Client mqttjs_7265cc69 [172.19.0.4:36872] disconnected: not authorised.
+1773994756: New connection from 172.19.0.4:36886 on port 1883.
+1773994756: Client mqttjs_7265cc69 [172.19.0.4:36886] disconnected: not authorised.
+1773994757: New connection from 172.19.0.4:36892 on port 1883.
+1773994757: Client mqttjs_7265cc69 [172.19.0.4:36892] disconnected: not authorised.
+1773994758: New connection from 172.19.0.4:36906 on port 1883.
+1773994758: Client mqttjs_7265cc69 [172.19.0.4:36906] disconnected: not authorised.
+1773994759: New connection from 172.19.0.4:36912 on port 1883.
+1773994759: Client mqttjs_7265cc69 [172.19.0.4:36912] disconnected: not authorised.
+1773994760: New connection from 172.19.0.4:36928 on port 1883.
+1773994760: Client mqttjs_7265cc69 [172.19.0.4:36928] disconnected: not authorised.
+1773994761: New connection from 172.19.0.4:36940 on port 1883.
+1773994761: Client mqttjs_7265cc69 [172.19.0.4:36940] disconnected: not authorised.
+1773994762: New connection from 172.19.0.4:36956 on port 1883.
+1773994762: Client mqttjs_7265cc69 [172.19.0.4:36956] disconnected: not authorised.
+1773994763: New connection from 172.19.0.4:36964 on port 1883.
+1773994763: Client mqttjs_7265cc69 [172.19.0.4:36964] disconnected: not authorised.
+1773994764: New connection from 172.19.0.4:33624 on port 1883.
+1773994764: Client mqttjs_7265cc69 [172.19.0.4:33624] disconnected: not authorised.
+1773994765: New connection from 172.19.0.4:33628 on port 1883.
+1773994765: Client mqttjs_7265cc69 [172.19.0.4:33628] disconnected: not authorised.
+1773994766: New connection from 172.19.0.4:33636 on port 1883.
+1773994766: Client mqttjs_7265cc69 [172.19.0.4:33636] disconnected: not authorised.
+1773994767: New connection from 172.19.0.4:33650 on port 1883.
+1773994767: Client mqttjs_7265cc69 [172.19.0.4:33650] disconnected: not authorised.
+1773994768: New connection from 172.19.0.4:33658 on port 1883.
+1773994768: Client mqttjs_7265cc69 [172.19.0.4:33658] disconnected: not authorised.
+1773994769: New connection from 172.19.0.4:33666 on port 1883.
+1773994769: Client mqttjs_7265cc69 [172.19.0.4:33666] disconnected: not authorised.
+1773994770: New connection from 172.19.0.4:33676 on port 1883.
+1773994770: Client mqttjs_7265cc69 [172.19.0.4:33676] disconnected: not authorised.
+1773994771: New connection from 172.19.0.4:33690 on port 1883.
+1773994771: Client mqttjs_7265cc69 [172.19.0.4:33690] disconnected: not authorised.
+1773994772: New connection from 172.19.0.4:33706 on port 1883.
+1773994772: Client mqttjs_7265cc69 [172.19.0.4:33706] disconnected: not authorised.
+1773994771: New connection from 172.19.0.4:33714 on port 1883.
+1773994771: Client mqttjs_7265cc69 [172.19.0.4:33714] disconnected: not authorised.
+1773994772: New connection from 172.19.0.4:42274 on port 1883.
+1773994772: Client mqttjs_7265cc69 [172.19.0.4:42274] disconnected: not authorised.
+1773994773: New connection from 172.19.0.4:42276 on port 1883.
+1773994773: Client mqttjs_7265cc69 [172.19.0.4:42276] disconnected: not authorised.
+1773994774: New connection from 172.19.0.4:42290 on port 1883.
+1773994774: Client mqttjs_7265cc69 [172.19.0.4:42290] disconnected: not authorised.
+1773994775: New connection from 172.19.0.4:42300 on port 1883.
+1773994775: Client mqttjs_7265cc69 [172.19.0.4:42300] disconnected: not authorised.
+1773994776: New connection from 172.19.0.4:42302 on port 1883.
+1773994776: Client mqttjs_7265cc69 [172.19.0.4:42302] disconnected: not authorised.
+1773994777: New connection from 172.19.0.4:42312 on port 1883.
+1773994777: Client mqttjs_7265cc69 [172.19.0.4:42312] disconnected: not authorised.
+1773994778: New connection from 172.19.0.4:42326 on port 1883.
+1773994778: Client mqttjs_7265cc69 [172.19.0.4:42326] disconnected: not authorised.
+1773994779: New connection from 172.19.0.4:42338 on port 1883.
+1773994779: Client mqttjs_7265cc69 [172.19.0.4:42338] disconnected: not authorised.
+1773994780: New connection from 172.19.0.4:42340 on port 1883.
+1773994780: Client mqttjs_7265cc69 [172.19.0.4:42340] disconnected: not authorised.
+1773994781: New connection from 172.19.0.4:42348 on port 1883.
+1773994781: Client mqttjs_7265cc69 [172.19.0.4:42348] disconnected: not authorised.
+1773994782: New connection from 172.19.0.4:58454 on port 1883.
+1773994782: Client mqttjs_7265cc69 [172.19.0.4:58454] disconnected: not authorised.
+1773994783: New connection from 172.19.0.4:58456 on port 1883.
+1773994783: Client mqttjs_7265cc69 [172.19.0.4:58456] disconnected: not authorised.
+1773994784: New connection from 172.19.0.4:58460 on port 1883.
+1773994784: Client mqttjs_7265cc69 [172.19.0.4:58460] disconnected: not authorised.
+1773994785: New connection from 172.19.0.4:58470 on port 1883.
+1773994785: Client mqttjs_7265cc69 [172.19.0.4:58470] disconnected: not authorised.
+1773994786: New connection from 172.19.0.4:58482 on port 1883.
+1773994786: Client mqttjs_7265cc69 [172.19.0.4:58482] disconnected: not authorised.
+1773994787: New connection from 172.19.0.4:58484 on port 1883.
+1773994787: Client mqttjs_7265cc69 [172.19.0.4:58484] disconnected: not authorised.
+1773994788: New connection from 172.19.0.4:58492 on port 1883.
+1773994788: Client mqttjs_7265cc69 [172.19.0.4:58492] disconnected: not authorised.
+1773994789: New connection from 172.19.0.4:58500 on port 1883.
+1773994789: Client mqttjs_7265cc69 [172.19.0.4:58500] disconnected: not authorised.
+1773994790: New connection from 172.19.0.4:58512 on port 1883.
+1773994790: Client mqttjs_7265cc69 [172.19.0.4:58512] disconnected: not authorised.
+1773994791: New connection from 172.19.0.4:58528 on port 1883.
+1773994791: Client mqttjs_7265cc69 [172.19.0.4:58528] disconnected: not authorised.
+1773994792: New connection from 172.19.0.4:33802 on port 1883.
+1773994792: Client mqttjs_7265cc69 [172.19.0.4:33802] disconnected: not authorised.
+1773994793: New connection from 172.19.0.4:33816 on port 1883.
+1773994793: Client mqttjs_7265cc69 [172.19.0.4:33816] disconnected: not authorised.
+1773994794: New connection from 172.19.0.4:33820 on port 1883.
+1773994794: Client mqttjs_7265cc69 [172.19.0.4:33820] disconnected: not authorised.
+1773994795: New connection from 172.19.0.4:33824 on port 1883.
+1773994795: Client mqttjs_7265cc69 [172.19.0.4:33824] disconnected: not authorised.
+1773994796: New connection from 172.19.0.4:33826 on port 1883.
+1773994796: Client mqttjs_7265cc69 [172.19.0.4:33826] disconnected: not authorised.
+1773994797: New connection from 172.19.0.4:33830 on port 1883.
+1773994797: Client mqttjs_7265cc69 [172.19.0.4:33830] disconnected: not authorised.
+1773994798: New connection from 172.19.0.4:33842 on port 1883.
+1773994798: Client mqttjs_7265cc69 [172.19.0.4:33842] disconnected: not authorised.
+1773994799: New connection from 172.19.0.4:33856 on port 1883.
+1773994799: Client mqttjs_7265cc69 [172.19.0.4:33856] disconnected: not authorised.
+1773994800: New connection from 172.19.0.4:33860 on port 1883.
+1773994800: Client mqttjs_7265cc69 [172.19.0.4:33860] disconnected: not authorised.
+1773994798: New connection from 172.19.0.4:33866 on port 1883.
+1773994798: Client mqttjs_7265cc69 [172.19.0.4:33866] disconnected: not authorised.
+1773994799: New connection from 172.19.0.4:36284 on port 1883.
+1773994799: Client mqttjs_7265cc69 [172.19.0.4:36284] disconnected: not authorised.
+1773994800: New connection from 172.19.0.4:36286 on port 1883.
+1773994800: Client mqttjs_7265cc69 [172.19.0.4:36286] disconnected: not authorised.
+1773994801: New connection from 172.19.0.4:36300 on port 1883.
+1773994801: Client mqttjs_7265cc69 [172.19.0.4:36300] disconnected: not authorised.
+1773994802: New connection from 172.19.0.4:36302 on port 1883.
+1773994802: Client mqttjs_7265cc69 [172.19.0.4:36302] disconnected: not authorised.
+1773994803: New connection from 172.19.0.4:36314 on port 1883.
+1773994803: Client mqttjs_7265cc69 [172.19.0.4:36314] disconnected: not authorised.
+1773994804: New connection from 172.19.0.4:36330 on port 1883.
+1773994804: Client mqttjs_7265cc69 [172.19.0.4:36330] disconnected: not authorised.
+1773994805: New connection from 172.19.0.4:36340 on port 1883.
+1773994805: Client mqttjs_7265cc69 [172.19.0.4:36340] disconnected: not authorised.
+1773994807: New connection from 172.19.0.4:36352 on port 1883.
+1773994807: Client mqttjs_7265cc69 [172.19.0.4:36352] disconnected: not authorised.
+1773994808: New connection from 172.19.0.4:36358 on port 1883.
+1773994808: Client mqttjs_7265cc69 [172.19.0.4:36358] disconnected: not authorised.
+1773994809: New connection from 172.19.0.4:36364 on port 1883.
+1773994809: Client mqttjs_7265cc69 [172.19.0.4:36364] disconnected: not authorised.
+1773994810: New connection from 172.19.0.4:35940 on port 1883.
+1773994810: Client mqttjs_7265cc69 [172.19.0.4:35940] disconnected: not authorised.
+1773994811: New connection from 172.19.0.4:35944 on port 1883.
+1773994811: Client mqttjs_7265cc69 [172.19.0.4:35944] disconnected: not authorised.
+1773994812: New connection from 172.19.0.4:35954 on port 1883.
+1773994812: Client mqttjs_7265cc69 [172.19.0.4:35954] disconnected: not authorised.
+1773994813: New connection from 172.19.0.4:35966 on port 1883.
+1773994813: Client mqttjs_7265cc69 [172.19.0.4:35966] disconnected: not authorised.
+1773994814: New connection from 172.19.0.4:35968 on port 1883.
+1773994814: Client mqttjs_7265cc69 [172.19.0.4:35968] disconnected: not authorised.
+1773994815: New connection from 172.19.0.4:35980 on port 1883.
+1773994815: Client mqttjs_7265cc69 [172.19.0.4:35980] disconnected: not authorised.
+1773994816: New connection from 172.19.0.4:35988 on port 1883.
+1773994816: Client mqttjs_7265cc69 [172.19.0.4:35988] disconnected: not authorised.
+1773994817: New connection from 172.19.0.4:36000 on port 1883.
+1773994817: Client mqttjs_7265cc69 [172.19.0.4:36000] disconnected: not authorised.
+1773994818: New connection from 172.19.0.4:36014 on port 1883.
+1773994818: Client mqttjs_7265cc69 [172.19.0.4:36014] disconnected: not authorised.
+1773994819: New connection from 172.19.0.4:36024 on port 1883.
+1773994819: Client mqttjs_7265cc69 [172.19.0.4:36024] disconnected: not authorised.
+1773994820: New connection from 172.19.0.4:45350 on port 1883.
+1773994820: Client mqttjs_7265cc69 [172.19.0.4:45350] disconnected: not authorised.
+1773994821: New connection from 172.19.0.4:45362 on port 1883.
+1773994821: Client mqttjs_7265cc69 [172.19.0.4:45362] disconnected: not authorised.
+1773994822: New connection from 172.19.0.4:45370 on port 1883.
+1773994822: Client mqttjs_7265cc69 [172.19.0.4:45370] disconnected: not authorised.
+1773994823: New connection from 172.19.0.4:45374 on port 1883.
+1773994823: Client mqttjs_7265cc69 [172.19.0.4:45374] disconnected: not authorised.
+1773994824: New connection from 172.19.0.4:45380 on port 1883.
+1773994824: Client mqttjs_7265cc69 [172.19.0.4:45380] disconnected: not authorised.
+1773994825: New connection from 172.19.0.4:45396 on port 1883.
+1773994825: Client mqttjs_7265cc69 [172.19.0.4:45396] disconnected: not authorised.
+1773994826: New connection from 172.19.0.4:45400 on port 1883.
+1773994826: Client mqttjs_7265cc69 [172.19.0.4:45400] disconnected: not authorised.
+1773994827: New connection from 172.19.0.4:45412 on port 1883.
+1773994827: Client mqttjs_7265cc69 [172.19.0.4:45412] disconnected: not authorised.
+1773994828: New connection from 172.19.0.4:45422 on port 1883.
+1773994828: Client mqttjs_7265cc69 [172.19.0.4:45422] disconnected: not authorised.
+1773994826: New connection from 172.19.0.4:45426 on port 1883.
+1773994826: Client mqttjs_7265cc69 [172.19.0.4:45426] disconnected: not authorised.
+1773994827: New connection from 172.19.0.4:43366 on port 1883.
+1773994827: Client mqttjs_7265cc69 [172.19.0.4:43366] disconnected: not authorised.
+1773994828: New connection from 172.19.0.4:43380 on port 1883.
+1773994828: Client mqttjs_7265cc69 [172.19.0.4:43380] disconnected: not authorised.
+1773994829: New connection from 172.19.0.4:43382 on port 1883.
+1773994829: Client mqttjs_7265cc69 [172.19.0.4:43382] disconnected: not authorised.
+1773994830: New connection from 172.19.0.4:43392 on port 1883.
+1773994830: Client mqttjs_7265cc69 [172.19.0.4:43392] disconnected: not authorised.
+1773994831: New connection from 172.19.0.4:43398 on port 1883.
+1773994831: Client mqttjs_7265cc69 [172.19.0.4:43398] disconnected: not authorised.
+1773994832: New connection from 172.19.0.4:43410 on port 1883.
+1773994832: Client mqttjs_7265cc69 [172.19.0.4:43410] disconnected: not authorised.
+1773994833: New connection from 172.19.0.4:43426 on port 1883.
+1773994833: Client mqttjs_7265cc69 [172.19.0.4:43426] disconnected: not authorised.
+1773994834: New connection from 172.19.0.4:43432 on port 1883.
+1773994834: Client mqttjs_7265cc69 [172.19.0.4:43432] disconnected: not authorised.
+1773994835: New connection from 172.19.0.4:43444 on port 1883.
+1773994835: Client mqttjs_7265cc69 [172.19.0.4:43444] disconnected: not authorised.
+1773994836: mosquitto version 2.1.2 terminating
+1773994836: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773994836: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773994836: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773994836: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773994836: mosquitto version 2.1.2 starting
+1773994836: Config loaded from /mosquitto/config/mosquitto.conf.
+1773994836: Bridge support available.
+1773994836: Persistence support available.
+1773994836: TLS support available.
+1773994836: TLS-PSK support available.
+1773994836: Websockets support available.
+1773994836: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773994836: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773994836: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773994836: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773994836: Opening ipv4 listen socket on port 1883.
+1773994836: Opening ipv6 listen socket on port 1883.
+1773994836: Opening ipv4 listen socket on port 9001.
+1773994836: Opening ipv6 listen socket on port 9001.
+1773994836: mosquitto version 2.1.2 running
+1773994836: New connection from 172.19.0.4:43456 on port 1883.
+1773994836: Client mqttjs_7265cc69 [172.19.0.4:43456] disconnected: not authorised.
+1773994837: New connection from 172.19.0.4:49204 on port 1883.
+1773994837: Client mqttjs_7265cc69 [172.19.0.4:49204] disconnected: not authorised.
+1773994838: New connection from 172.19.0.4:49212 on port 1883.
+1773994838: Client mqttjs_7265cc69 [172.19.0.4:49212] disconnected: not authorised.
+1773994839: New connection from 172.19.0.4:49226 on port 1883.
+1773994839: Client mqttjs_7265cc69 [172.19.0.4:49226] disconnected: not authorised.
+1773994840: New connection from 172.19.0.4:49230 on port 1883.
+1773994840: Client mqttjs_7265cc69 [172.19.0.4:49230] disconnected: not authorised.
+1773994841: New connection from 172.19.0.4:49234 on port 1883.
+1773994841: Client mqttjs_7265cc69 [172.19.0.4:49234] disconnected: not authorised.
+1773994842: New connection from 172.19.0.4:49248 on port 1883.
+1773994842: Client mqttjs_7265cc69 [172.19.0.4:49248] disconnected: not authorised.
+1773994843: New connection from 172.19.0.4:49262 on port 1883.
+1773994843: Client mqttjs_7265cc69 [172.19.0.4:49262] disconnected: not authorised.
+1773994844: New connection from 172.19.0.4:49274 on port 1883.
+1773994844: Client mqttjs_7265cc69 [172.19.0.4:49274] disconnected: not authorised.
+1773994845: New connection from 172.19.0.4:49286 on port 1883.
+1773994845: Client mqttjs_7265cc69 [172.19.0.4:49286] disconnected: not authorised.
+1773994846: New connection from 172.19.0.4:45428 on port 1883.
+1773994846: Client mqttjs_7265cc69 [172.19.0.4:45428] disconnected: not authorised.
+1773994848: New connection from 172.19.0.4:45436 on port 1883.
+1773994848: Client mqttjs_7265cc69 [172.19.0.4:45436] disconnected: not authorised.
+1773994849: New connection from 172.19.0.4:45452 on port 1883.
+1773994849: Client mqttjs_7265cc69 [172.19.0.4:45452] disconnected: not authorised.
+1773994850: New connection from 172.19.0.4:45468 on port 1883.
+1773994850: Client mqttjs_7265cc69 [172.19.0.4:45468] disconnected: not authorised.
+1773994851: New connection from 172.19.0.4:45480 on port 1883.
+1773994851: Client mqttjs_7265cc69 [172.19.0.4:45480] disconnected: not authorised.
+1773994852: New connection from 172.19.0.4:45490 on port 1883.
+1773994852: Client mqttjs_7265cc69 [172.19.0.4:45490] disconnected: not authorised.
+1773994853: New connection from 172.19.0.4:45506 on port 1883.
+1773994853: Client mqttjs_7265cc69 [172.19.0.4:45506] disconnected: not authorised.
+1773994854: New connection from 172.19.0.4:45514 on port 1883.
+1773994854: Client mqttjs_7265cc69 [172.19.0.4:45514] disconnected: not authorised.
+1773994855: New connection from 172.19.0.4:45526 on port 1883.
+1773994855: Client mqttjs_7265cc69 [172.19.0.4:45526] disconnected: not authorised.
+1773994856: New connection from 172.19.0.4:45538 on port 1883.
+1773994856: Client mqttjs_7265cc69 [172.19.0.4:45538] disconnected: not authorised.
+1773994854: New connection from 172.19.0.4:58094 on port 1883.
+1773994854: Client mqttjs_7265cc69 [172.19.0.4:58094] disconnected: not authorised.
+1773994855: New connection from 172.19.0.4:58096 on port 1883.
+1773994855: Client mqttjs_7265cc69 [172.19.0.4:58096] disconnected: not authorised.
+1773994856: New connection from 172.19.0.4:58100 on port 1883.
+1773994856: Client mqttjs_7265cc69 [172.19.0.4:58100] disconnected: not authorised.
+1773994857: New connection from 172.19.0.4:58108 on port 1883.
+1773994857: Client mqttjs_7265cc69 [172.19.0.4:58108] disconnected: not authorised.
+1773994858: New connection from 172.19.0.4:58122 on port 1883.
+1773994858: Client mqttjs_7265cc69 [172.19.0.4:58122] disconnected: not authorised.
+1773994859: New connection from 172.19.0.4:58138 on port 1883.
+1773994859: Client mqttjs_7265cc69 [172.19.0.4:58138] disconnected: not authorised.
+1773994860: New connection from 172.19.0.4:58148 on port 1883.
+1773994860: Client mqttjs_7265cc69 [172.19.0.4:58148] disconnected: not authorised.
+1773994861: New connection from 172.19.0.4:58152 on port 1883.
+1773994861: Client mqttjs_7265cc69 [172.19.0.4:58152] disconnected: not authorised.
+1773994862: New connection from 172.19.0.4:58154 on port 1883.
+1773994862: Client mqttjs_7265cc69 [172.19.0.4:58154] disconnected: not authorised.
+1773994863: New connection from 172.19.0.4:58170 on port 1883.
+1773994863: Client mqttjs_7265cc69 [172.19.0.4:58170] disconnected: not authorised.
+1773994864: New connection from 172.19.0.4:37860 on port 1883.
+1773994864: Client mqttjs_7265cc69 [172.19.0.4:37860] disconnected: not authorised.
+1773994865: New connection from 172.19.0.4:37874 on port 1883.
+1773994865: Client mqttjs_7265cc69 [172.19.0.4:37874] disconnected: not authorised.
+1773994866: New connection from 172.19.0.4:37884 on port 1883.
+1773994866: Client mqttjs_7265cc69 [172.19.0.4:37884] disconnected: not authorised.
+1773994867: New connection from 172.19.0.4:37888 on port 1883.
+1773994867: Client mqttjs_7265cc69 [172.19.0.4:37888] disconnected: not authorised.
+1773994868: New connection from 172.19.0.4:37892 on port 1883.
+1773994868: Client mqttjs_7265cc69 [172.19.0.4:37892] disconnected: not authorised.
+1773994869: New connection from 172.19.0.4:37902 on port 1883.
+1773994869: Client mqttjs_7265cc69 [172.19.0.4:37902] disconnected: not authorised.
+1773994870: New connection from 172.19.0.4:37914 on port 1883.
+1773994870: Client mqttjs_7265cc69 [172.19.0.4:37914] disconnected: not authorised.
+1773994871: New connection from 172.19.0.4:37926 on port 1883.
+1773994871: Client mqttjs_7265cc69 [172.19.0.4:37926] disconnected: not authorised.
+1773994872: New connection from 172.19.0.4:37928 on port 1883.
+1773994872: Client mqttjs_7265cc69 [172.19.0.4:37928] disconnected: not authorised.
+1773994873: New connection from 172.19.0.4:37932 on port 1883.
+1773994873: Client mqttjs_7265cc69 [172.19.0.4:37932] disconnected: not authorised.
+1773994874: New connection from 172.19.0.4:50766 on port 1883.
+1773994874: Client mqttjs_7265cc69 [172.19.0.4:50766] disconnected: not authorised.
+1773994875: New connection from 172.19.0.4:50778 on port 1883.
+1773994875: Client mqttjs_7265cc69 [172.19.0.4:50778] disconnected: not authorised.
+1773994876: New connection from 172.19.0.4:50794 on port 1883.
+1773994876: Client mqttjs_7265cc69 [172.19.0.4:50794] disconnected: not authorised.
+1773994877: New connection from 172.19.0.4:50806 on port 1883.
+1773994877: Client mqttjs_7265cc69 [172.19.0.4:50806] disconnected: not authorised.
+1773994878: New connection from 172.19.0.4:50812 on port 1883.
+1773994878: Client mqttjs_7265cc69 [172.19.0.4:50812] disconnected: not authorised.
+1773994879: New connection from 172.19.0.4:50828 on port 1883.
+1773994879: Client mqttjs_7265cc69 [172.19.0.4:50828] disconnected: not authorised.
+1773994880: New connection from 172.19.0.4:50844 on port 1883.
+1773994880: Client mqttjs_7265cc69 [172.19.0.4:50844] disconnected: not authorised.
+1773994881: New connection from 172.19.0.4:50860 on port 1883.
+1773994881: Client mqttjs_7265cc69 [172.19.0.4:50860] disconnected: not authorised.
+1773994882: New connection from 172.19.0.4:50876 on port 1883.
+1773994882: Client mqttjs_7265cc69 [172.19.0.4:50876] disconnected: not authorised.
+1773994883: New connection from 172.19.0.4:50884 on port 1883.
+1773994883: Client mqttjs_7265cc69 [172.19.0.4:50884] disconnected: not authorised.
+1773994882: New connection from 172.19.0.4:51588 on port 1883.
+1773994882: Client mqttjs_7265cc69 [172.19.0.4:51588] disconnected: not authorised.
+1773994883: New connection from 172.19.0.4:51592 on port 1883.
+1773994883: Client mqttjs_7265cc69 [172.19.0.4:51592] disconnected: not authorised.
+1773994884: New connection from 172.19.0.4:51606 on port 1883.
+1773994884: Client mqttjs_7265cc69 [172.19.0.4:51606] disconnected: not authorised.
+1773994885: New connection from 172.19.0.4:51612 on port 1883.
+1773994885: Client mqttjs_7265cc69 [172.19.0.4:51612] disconnected: not authorised.
+1773994886: New connection from 172.19.0.4:51622 on port 1883.
+1773994886: Client mqttjs_7265cc69 [172.19.0.4:51622] disconnected: not authorised.
+1773994887: New connection from 172.19.0.4:51632 on port 1883.
+1773994887: Client mqttjs_7265cc69 [172.19.0.4:51632] disconnected: not authorised.
+1773994888: New connection from 172.19.0.4:51646 on port 1883.
+1773994888: Client mqttjs_7265cc69 [172.19.0.4:51646] disconnected: not authorised.
+1773994889: New connection from 172.19.0.4:51660 on port 1883.
+1773994889: Client mqttjs_7265cc69 [172.19.0.4:51660] disconnected: not authorised.
+1773994890: New connection from 172.19.0.4:51670 on port 1883.
+1773994890: Client mqttjs_7265cc69 [172.19.0.4:51670] disconnected: not authorised.
+1773994891: New connection from 172.19.0.4:51672 on port 1883.
+1773994891: Client mqttjs_7265cc69 [172.19.0.4:51672] disconnected: not authorised.
+1773994892: New connection from 172.19.0.4:46414 on port 1883.
+1773994892: Client mqttjs_7265cc69 [172.19.0.4:46414] disconnected: not authorised.
+1773994893: New connection from 172.19.0.4:46416 on port 1883.
+1773994893: Client mqttjs_7265cc69 [172.19.0.4:46416] disconnected: not authorised.
+1773994894: New connection from 172.19.0.4:46422 on port 1883.
+1773994894: Client mqttjs_7265cc69 [172.19.0.4:46422] disconnected: not authorised.
+1773994895: New connection from 172.19.0.4:46426 on port 1883.
+1773994895: Client mqttjs_7265cc69 [172.19.0.4:46426] disconnected: not authorised.
+1773994896: New connection from 172.19.0.4:46436 on port 1883.
+1773994896: Client mqttjs_7265cc69 [172.19.0.4:46436] disconnected: not authorised.
+1773994897: New connection from 172.19.0.4:46446 on port 1883.
+1773994897: Client mqttjs_7265cc69 [172.19.0.4:46446] disconnected: not authorised.
+1773994898: New connection from 172.19.0.4:46456 on port 1883.
+1773994898: Client mqttjs_7265cc69 [172.19.0.4:46456] disconnected: not authorised.
+1773994899: New connection from 172.19.0.4:46468 on port 1883.
+1773994899: Client mqttjs_7265cc69 [172.19.0.4:46468] disconnected: not authorised.
+1773994900: New connection from 172.19.0.4:46474 on port 1883.
+1773994900: Client mqttjs_7265cc69 [172.19.0.4:46474] disconnected: not authorised.
+1773994901: New connection from 172.19.0.4:46480 on port 1883.
+1773994901: Client mqttjs_7265cc69 [172.19.0.4:46480] disconnected: not authorised.
+1773994902: New connection from 172.19.0.4:41018 on port 1883.
+1773994902: Client mqttjs_7265cc69 [172.19.0.4:41018] disconnected: not authorised.
+1773994903: New connection from 172.19.0.4:41030 on port 1883.
+1773994903: Client mqttjs_7265cc69 [172.19.0.4:41030] disconnected: not authorised.
+1773994904: New connection from 172.19.0.4:41032 on port 1883.
+1773994904: Client mqttjs_7265cc69 [172.19.0.4:41032] disconnected: not authorised.
+1773994905: New connection from 172.19.0.4:41042 on port 1883.
+1773994905: Client mqttjs_7265cc69 [172.19.0.4:41042] disconnected: not authorised.
+1773994906: New connection from 172.19.0.4:41058 on port 1883.
+1773994906: Client mqttjs_7265cc69 [172.19.0.4:41058] disconnected: not authorised.
+1773994907: New connection from 172.19.0.4:41072 on port 1883.
+1773994907: Client mqttjs_7265cc69 [172.19.0.4:41072] disconnected: not authorised.
+1773994908: New connection from 172.19.0.4:41084 on port 1883.
+1773994908: Client mqttjs_7265cc69 [172.19.0.4:41084] disconnected: not authorised.
+1773994909: New connection from 172.19.0.4:41088 on port 1883.
+1773994909: Client mqttjs_7265cc69 [172.19.0.4:41088] disconnected: not authorised.
+1773994910: New connection from 172.19.0.4:41104 on port 1883.
+1773994910: Client mqttjs_7265cc69 [172.19.0.4:41104] disconnected: not authorised.
+1773994909: New connection from 172.19.0.4:41116 on port 1883.
+1773994909: Client mqttjs_7265cc69 [172.19.0.4:41116] disconnected: not authorised.
+1773994910: New connection from 172.19.0.4:51126 on port 1883.
+1773994910: Client mqttjs_7265cc69 [172.19.0.4:51126] disconnected: not authorised.
+1773994911: New connection from 172.19.0.4:51128 on port 1883.
+1773994911: Client mqttjs_7265cc69 [172.19.0.4:51128] disconnected: not authorised.
+1773994912: New connection from 172.19.0.4:51138 on port 1883.
+1773994912: Client mqttjs_7265cc69 [172.19.0.4:51138] disconnected: not authorised.
+1773994913: New connection from 172.19.0.4:51144 on port 1883.
+1773994913: Client mqttjs_7265cc69 [172.19.0.4:51144] disconnected: not authorised.
+1773994914: New connection from 172.19.0.4:51146 on port 1883.
+1773994914: Client mqttjs_7265cc69 [172.19.0.4:51146] disconnected: not authorised.
+1773994915: New connection from 172.19.0.4:51162 on port 1883.
+1773994915: Client mqttjs_7265cc69 [172.19.0.4:51162] disconnected: not authorised.
+1773994916: New connection from 172.19.0.4:51170 on port 1883.
+1773994916: Client mqttjs_7265cc69 [172.19.0.4:51170] disconnected: not authorised.
+1773994917: New connection from 172.19.0.4:51174 on port 1883.
+1773994917: Client mqttjs_7265cc69 [172.19.0.4:51174] disconnected: not authorised.
+1773994918: New connection from 172.19.0.4:51182 on port 1883.
+1773994918: Client mqttjs_7265cc69 [172.19.0.4:51182] disconnected: not authorised.
+1773994919: New connection from 172.19.0.4:51192 on port 1883.
+1773994919: Client mqttjs_7265cc69 [172.19.0.4:51192] disconnected: not authorised.
+1773994920: New connection from 172.19.0.4:32828 on port 1883.
+1773994920: Client mqttjs_7265cc69 [172.19.0.4:32828] disconnected: not authorised.
+1773994921: New connection from 172.19.0.4:32838 on port 1883.
+1773994921: Client mqttjs_7265cc69 [172.19.0.4:32838] disconnected: not authorised.
+1773994922: New connection from 172.19.0.4:32852 on port 1883.
+1773994922: Client mqttjs_7265cc69 [172.19.0.4:32852] disconnected: not authorised.
+1773994923: New connection from 172.19.0.4:32862 on port 1883.
+1773994923: Client mqttjs_7265cc69 [172.19.0.4:32862] disconnected: not authorised.
+1773994924: New connection from 172.19.0.4:32866 on port 1883.
+1773994924: Client mqttjs_7265cc69 [172.19.0.4:32866] disconnected: not authorised.
+1773994925: New connection from 172.19.0.4:32876 on port 1883.
+1773994925: Client mqttjs_7265cc69 [172.19.0.4:32876] disconnected: not authorised.
+1773994926: New connection from 172.19.0.4:32886 on port 1883.
+1773994926: Client mqttjs_7265cc69 [172.19.0.4:32886] disconnected: not authorised.
+1773994927: New connection from 172.19.0.4:32898 on port 1883.
+1773994927: Client mqttjs_7265cc69 [172.19.0.4:32898] disconnected: not authorised.
+1773994928: New connection from 172.19.0.4:32908 on port 1883.
+1773994928: Client mqttjs_7265cc69 [172.19.0.4:32908] disconnected: not authorised.
+1773994929: New connection from 172.19.0.4:32920 on port 1883.
+1773994929: Client mqttjs_7265cc69 [172.19.0.4:32920] disconnected: not authorised.
+1773994930: New connection from 172.19.0.4:48438 on port 1883.
+1773994930: Client mqttjs_7265cc69 [172.19.0.4:48438] disconnected: not authorised.
+1773994931: New connection from 172.19.0.4:48450 on port 1883.
+1773994931: Client mqttjs_7265cc69 [172.19.0.4:48450] disconnected: not authorised.
+1773994932: New connection from 172.19.0.4:48452 on port 1883.
+1773994932: Client mqttjs_7265cc69 [172.19.0.4:48452] disconnected: not authorised.
+1773994933: New connection from 172.19.0.4:48466 on port 1883.
+1773994933: Client mqttjs_7265cc69 [172.19.0.4:48466] disconnected: not authorised.
+1773994934: New connection from 172.19.0.4:48468 on port 1883.
+1773994934: Client mqttjs_7265cc69 [172.19.0.4:48468] disconnected: not authorised.
+1773994935: New connection from 172.19.0.4:48482 on port 1883.
+1773994935: Client mqttjs_7265cc69 [172.19.0.4:48482] disconnected: not authorised.
+1773994936: New connection from 172.19.0.4:48496 on port 1883.
+1773994936: Client mqttjs_7265cc69 [172.19.0.4:48496] disconnected: not authorised.
+1773994937: New connection from 172.19.0.4:48506 on port 1883.
+1773994937: Client mqttjs_7265cc69 [172.19.0.4:48506] disconnected: not authorised.
+1773994938: New connection from 172.19.0.4:48518 on port 1883.
+1773994938: Client mqttjs_7265cc69 [172.19.0.4:48518] disconnected: not authorised.
+1773994937: New connection from 172.19.0.4:48522 on port 1883.
+1773994937: Client mqttjs_7265cc69 [172.19.0.4:48522] disconnected: not authorised.
+1773994938: New connection from 172.19.0.4:48480 on port 1883.
+1773994938: Client mqttjs_7265cc69 [172.19.0.4:48480] disconnected: not authorised.
+1773994939: New connection from 172.19.0.4:48490 on port 1883.
+1773994939: Client mqttjs_7265cc69 [172.19.0.4:48490] disconnected: not authorised.
+1773994940: New connection from 172.19.0.4:48500 on port 1883.
+1773994940: Client mqttjs_7265cc69 [172.19.0.4:48500] disconnected: not authorised.
+1773994941: New connection from 172.19.0.4:48504 on port 1883.
+1773994941: Client mqttjs_7265cc69 [172.19.0.4:48504] disconnected: not authorised.
+1773994942: New connection from 172.19.0.4:48518 on port 1883.
+1773994942: Client mqttjs_7265cc69 [172.19.0.4:48518] disconnected: not authorised.
+1773994943: New connection from 172.19.0.4:48528 on port 1883.
+1773994943: Client mqttjs_7265cc69 [172.19.0.4:48528] disconnected: not authorised.
+1773994944: New connection from 172.19.0.4:48532 on port 1883.
+1773994944: Client mqttjs_7265cc69 [172.19.0.4:48532] disconnected: not authorised.
+1773994945: New connection from 172.19.0.4:48546 on port 1883.
+1773994945: Client mqttjs_7265cc69 [172.19.0.4:48546] disconnected: not authorised.
+1773994946: New connection from 172.19.0.4:48550 on port 1883.
+1773994946: Client mqttjs_7265cc69 [172.19.0.4:48550] disconnected: not authorised.
+1773994947: New connection from 172.19.0.4:48558 on port 1883.
+1773994947: Client mqttjs_7265cc69 [172.19.0.4:48558] disconnected: not authorised.
+1773994948: New connection from 172.19.0.4:40882 on port 1883.
+1773994948: Client mqttjs_7265cc69 [172.19.0.4:40882] disconnected: not authorised.
+1773994949: New connection from 172.19.0.4:40896 on port 1883.
+1773994949: Client mqttjs_7265cc69 [172.19.0.4:40896] disconnected: not authorised.
+1773994950: New connection from 172.19.0.4:40906 on port 1883.
+1773994950: Client mqttjs_7265cc69 [172.19.0.4:40906] disconnected: not authorised.
+1773994951: New connection from 172.19.0.4:40914 on port 1883.
+1773994951: Client mqttjs_7265cc69 [172.19.0.4:40914] disconnected: not authorised.
+1773994952: New connection from 172.19.0.4:40918 on port 1883.
+1773994952: Client mqttjs_7265cc69 [172.19.0.4:40918] disconnected: not authorised.
+1773994953: New connection from 172.19.0.4:40924 on port 1883.
+1773994953: Client mqttjs_7265cc69 [172.19.0.4:40924] disconnected: not authorised.
+1773994954: New connection from 172.19.0.4:40940 on port 1883.
+1773994954: Client mqttjs_7265cc69 [172.19.0.4:40940] disconnected: not authorised.
+1773994955: New connection from 172.19.0.4:40950 on port 1883.
+1773994955: Client mqttjs_7265cc69 [172.19.0.4:40950] disconnected: not authorised.
+1773994956: New connection from 172.19.0.4:40964 on port 1883.
+1773994956: Client mqttjs_7265cc69 [172.19.0.4:40964] disconnected: not authorised.
+1773994957: New connection from 172.19.0.4:40974 on port 1883.
+1773994957: Client mqttjs_7265cc69 [172.19.0.4:40974] disconnected: not authorised.
+1773994958: New connection from 172.19.0.4:57726 on port 1883.
+1773994958: Client mqttjs_7265cc69 [172.19.0.4:57726] disconnected: not authorised.
+1773994959: New connection from 172.19.0.4:57742 on port 1883.
+1773994959: Client mqttjs_7265cc69 [172.19.0.4:57742] disconnected: not authorised.
+1773994960: New connection from 172.19.0.4:57754 on port 1883.
+1773994960: Client mqttjs_7265cc69 [172.19.0.4:57754] disconnected: not authorised.
+1773994961: New connection from 172.19.0.4:57760 on port 1883.
+1773994961: Client mqttjs_7265cc69 [172.19.0.4:57760] disconnected: not authorised.
+1773994962: New connection from 172.19.0.4:57776 on port 1883.
+1773994962: Client mqttjs_7265cc69 [172.19.0.4:57776] disconnected: not authorised.
+1773994963: New connection from 172.19.0.4:57782 on port 1883.
+1773994963: Client mqttjs_7265cc69 [172.19.0.4:57782] disconnected: not authorised.
+1773994964: New connection from 172.19.0.4:57790 on port 1883.
+1773994964: Client mqttjs_7265cc69 [172.19.0.4:57790] disconnected: not authorised.
+1773994965: New connection from 172.19.0.4:57806 on port 1883.
+1773994965: Client mqttjs_7265cc69 [172.19.0.4:57806] disconnected: not authorised.
+1773994966: New connection from 172.19.0.4:57822 on port 1883.
+1773994966: Client mqttjs_7265cc69 [172.19.0.4:57822] disconnected: not authorised.
+1773994965: New connection from 172.19.0.4:57836 on port 1883.
+1773994965: Client mqttjs_7265cc69 [172.19.0.4:57836] disconnected: not authorised.
+1773994966: New connection from 172.19.0.4:51158 on port 1883.
+1773994966: Client mqttjs_7265cc69 [172.19.0.4:51158] disconnected: not authorised.
+1773994967: New connection from 172.19.0.4:51166 on port 1883.
+1773994967: Client mqttjs_7265cc69 [172.19.0.4:51166] disconnected: not authorised.
+1773994968: New connection from 172.19.0.4:51176 on port 1883.
+1773994968: Client mqttjs_7265cc69 [172.19.0.4:51176] disconnected: not authorised.
+1773994969: New connection from 172.19.0.4:51184 on port 1883.
+1773994969: Client mqttjs_7265cc69 [172.19.0.4:51184] disconnected: not authorised.
+1773994970: New connection from 172.19.0.4:51186 on port 1883.
+1773994970: Client mqttjs_7265cc69 [172.19.0.4:51186] disconnected: not authorised.
+1773994971: New connection from 172.19.0.4:51196 on port 1883.
+1773994971: Client mqttjs_7265cc69 [172.19.0.4:51196] disconnected: not authorised.
+1773994972: New connection from 172.19.0.4:51200 on port 1883.
+1773994972: Client mqttjs_7265cc69 [172.19.0.4:51200] disconnected: not authorised.
+1773994973: New connection from 172.19.0.4:51208 on port 1883.
+1773994973: Client mqttjs_7265cc69 [172.19.0.4:51208] disconnected: not authorised.
+1773994974: New connection from 172.19.0.4:51210 on port 1883.
+1773994974: Client mqttjs_7265cc69 [172.19.0.4:51210] disconnected: not authorised.
+1773994975: New connection from 172.19.0.4:51222 on port 1883.
+1773994975: Client mqttjs_7265cc69 [172.19.0.4:51222] disconnected: not authorised.
+1773994976: New connection from 172.19.0.4:34120 on port 1883.
+1773994976: Client mqttjs_7265cc69 [172.19.0.4:34120] disconnected: not authorised.
+1773994977: New connection from 172.19.0.4:34126 on port 1883.
+1773994977: Client mqttjs_7265cc69 [172.19.0.4:34126] disconnected: not authorised.
+1773994978: New connection from 172.19.0.4:34134 on port 1883.
+1773994978: Client mqttjs_7265cc69 [172.19.0.4:34134] disconnected: not authorised.
+1773994979: New connection from 172.19.0.4:34144 on port 1883.
+1773994979: Client mqttjs_7265cc69 [172.19.0.4:34144] disconnected: not authorised.
+1773994980: New connection from 172.19.0.4:34148 on port 1883.
+1773994980: Client mqttjs_7265cc69 [172.19.0.4:34148] disconnected: not authorised.
+1773994981: New connection from 172.19.0.4:34150 on port 1883.
+1773994981: Client mqttjs_7265cc69 [172.19.0.4:34150] disconnected: not authorised.
+1773994982: New connection from 172.19.0.4:34162 on port 1883.
+1773994982: Client mqttjs_7265cc69 [172.19.0.4:34162] disconnected: not authorised.
+1773994983: New connection from 172.19.0.4:34166 on port 1883.
+1773994983: Client mqttjs_7265cc69 [172.19.0.4:34166] disconnected: not authorised.
+1773994984: New connection from 172.19.0.4:34174 on port 1883.
+1773994984: Client mqttjs_7265cc69 [172.19.0.4:34174] disconnected: not authorised.
+1773994985: New connection from 172.19.0.4:34176 on port 1883.
+1773994985: Client mqttjs_7265cc69 [172.19.0.4:34176] disconnected: not authorised.
+1773994986: New connection from 172.19.0.4:58104 on port 1883.
+1773994986: Client mqttjs_7265cc69 [172.19.0.4:58104] disconnected: not authorised.
+1773994987: New connection from 172.19.0.4:58108 on port 1883.
+1773994987: Client mqttjs_7265cc69 [172.19.0.4:58108] disconnected: not authorised.
+1773994988: New connection from 172.19.0.4:58118 on port 1883.
+1773994988: Client mqttjs_7265cc69 [172.19.0.4:58118] disconnected: not authorised.
+1773994989: New connection from 172.19.0.4:58128 on port 1883.
+1773994989: Client mqttjs_7265cc69 [172.19.0.4:58128] disconnected: not authorised.
+1773994990: New connection from 172.19.0.4:58134 on port 1883.
+1773994990: Client mqttjs_7265cc69 [172.19.0.4:58134] disconnected: not authorised.
+1773994991: New connection from 172.19.0.4:58150 on port 1883.
+1773994991: Client mqttjs_7265cc69 [172.19.0.4:58150] disconnected: not authorised.
+1773994992: New connection from 172.19.0.4:58160 on port 1883.
+1773994992: Client mqttjs_7265cc69 [172.19.0.4:58160] disconnected: not authorised.
+1773994993: New connection from 172.19.0.4:58162 on port 1883.
+1773994993: Client mqttjs_7265cc69 [172.19.0.4:58162] disconnected: not authorised.
+1773994994: New connection from 172.19.0.4:58168 on port 1883.
+1773994994: Client mqttjs_7265cc69 [172.19.0.4:58168] disconnected: not authorised.
+1773994993: New connection from 172.19.0.4:58172 on port 1883.
+1773994993: Client mqttjs_7265cc69 [172.19.0.4:58172] disconnected: not authorised.
+1773994994: New connection from 172.19.0.4:38264 on port 1883.
+1773994994: Client mqttjs_7265cc69 [172.19.0.4:38264] disconnected: not authorised.
+1773994995: New connection from 172.19.0.4:38268 on port 1883.
+1773994995: Client mqttjs_7265cc69 [172.19.0.4:38268] disconnected: not authorised.
+1773994996: New connection from 172.19.0.4:38284 on port 1883.
+1773994996: Client mqttjs_7265cc69 [172.19.0.4:38284] disconnected: not authorised.
+1773994997: New connection from 172.19.0.4:38288 on port 1883.
+1773994997: Client mqttjs_7265cc69 [172.19.0.4:38288] disconnected: not authorised.
+1773994998: New connection from 172.19.0.4:38294 on port 1883.
+1773994998: Client mqttjs_7265cc69 [172.19.0.4:38294] disconnected: not authorised.
+1773994999: New connection from 172.19.0.4:38302 on port 1883.
+1773994999: Client mqttjs_7265cc69 [172.19.0.4:38302] disconnected: not authorised.
+1773995000: New connection from 172.19.0.4:38308 on port 1883.
+1773995000: Client mqttjs_7265cc69 [172.19.0.4:38308] disconnected: not authorised.
+1773995001: New connection from 172.19.0.4:38316 on port 1883.
+1773995001: Client mqttjs_7265cc69 [172.19.0.4:38316] disconnected: not authorised.
+1773995002: New connection from 172.19.0.4:38332 on port 1883.
+1773995002: Client mqttjs_7265cc69 [172.19.0.4:38332] disconnected: not authorised.
+1773995003: New connection from 172.19.0.4:52212 on port 1883.
+1773995003: Client mqttjs_7265cc69 [172.19.0.4:52212] disconnected: not authorised.
+1773995004: New connection from 172.19.0.4:52220 on port 1883.
+1773995004: Client mqttjs_7265cc69 [172.19.0.4:52220] disconnected: not authorised.
+1773995005: New connection from 172.19.0.4:52230 on port 1883.
+1773995005: Client mqttjs_7265cc69 [172.19.0.4:52230] disconnected: not authorised.
+1773995006: New connection from 172.19.0.4:52242 on port 1883.
+1773995006: Client mqttjs_7265cc69 [172.19.0.4:52242] disconnected: not authorised.
+1773995007: New connection from 172.19.0.4:52244 on port 1883.
+1773995007: Client mqttjs_7265cc69 [172.19.0.4:52244] disconnected: not authorised.
+1773995008: New connection from 172.19.0.4:52246 on port 1883.
+1773995008: Client mqttjs_7265cc69 [172.19.0.4:52246] disconnected: not authorised.
+1773995009: New connection from 172.19.0.4:52256 on port 1883.
+1773995009: Client mqttjs_7265cc69 [172.19.0.4:52256] disconnected: not authorised.
+1773995010: New connection from 172.19.0.4:52264 on port 1883.
+1773995010: Client mqttjs_7265cc69 [172.19.0.4:52264] disconnected: not authorised.
+1773995011: New connection from 172.19.0.4:52278 on port 1883.
+1773995011: Client mqttjs_7265cc69 [172.19.0.4:52278] disconnected: not authorised.
+1773995012: New connection from 172.19.0.4:52286 on port 1883.
+1773995012: Client mqttjs_7265cc69 [172.19.0.4:52286] disconnected: not authorised.
+1773995013: New connection from 172.19.0.4:49260 on port 1883.
+1773995013: Client mqttjs_7265cc69 [172.19.0.4:49260] disconnected: not authorised.
+1773995014: New connection from 172.19.0.4:49266 on port 1883.
+1773995014: Client mqttjs_7265cc69 [172.19.0.4:49266] disconnected: not authorised.
+1773995015: New connection from 172.19.0.4:49272 on port 1883.
+1773995015: Client mqttjs_7265cc69 [172.19.0.4:49272] disconnected: not authorised.
+1773995016: New connection from 172.19.0.4:49274 on port 1883.
+1773995016: Client mqttjs_7265cc69 [172.19.0.4:49274] disconnected: not authorised.
+1773995017: New connection from 172.19.0.4:49290 on port 1883.
+1773995017: Client mqttjs_7265cc69 [172.19.0.4:49290] disconnected: not authorised.
+1773995018: New connection from 172.19.0.4:49306 on port 1883.
+1773995018: Client mqttjs_7265cc69 [172.19.0.4:49306] disconnected: not authorised.
+1773995019: New connection from 172.19.0.4:49316 on port 1883.
+1773995019: Client mqttjs_7265cc69 [172.19.0.4:49316] disconnected: not authorised.
+1773995020: New connection from 172.19.0.4:49320 on port 1883.
+1773995020: Client mqttjs_7265cc69 [172.19.0.4:49320] disconnected: not authorised.
+1773995021: New connection from 172.19.0.4:49326 on port 1883.
+1773995021: Client mqttjs_7265cc69 [172.19.0.4:49326] disconnected: not authorised.
+1773995022: New connection from 172.19.0.4:49328 on port 1883.
+1773995022: Client mqttjs_7265cc69 [172.19.0.4:49328] disconnected: not authorised.
+1773995021: New connection from 172.19.0.4:54232 on port 1883.
+1773995021: Client mqttjs_7265cc69 [172.19.0.4:54232] disconnected: not authorised.
+1773995022: New connection from 172.19.0.4:54238 on port 1883.
+1773995022: Client mqttjs_7265cc69 [172.19.0.4:54238] disconnected: not authorised.
+1773995023: New connection from 172.19.0.4:54246 on port 1883.
+1773995023: Client mqttjs_7265cc69 [172.19.0.4:54246] disconnected: not authorised.
+1773995024: New connection from 172.19.0.4:54262 on port 1883.
+1773995024: Client mqttjs_7265cc69 [172.19.0.4:54262] disconnected: not authorised.
+1773995025: New connection from 172.19.0.4:54264 on port 1883.
+1773995025: Client mqttjs_7265cc69 [172.19.0.4:54264] disconnected: not authorised.
+1773995026: New connection from 172.19.0.4:54274 on port 1883.
+1773995026: Client mqttjs_7265cc69 [172.19.0.4:54274] disconnected: not authorised.
+1773995027: New connection from 172.19.0.4:54276 on port 1883.
+1773995027: Client mqttjs_7265cc69 [172.19.0.4:54276] disconnected: not authorised.
+1773995028: New connection from 172.19.0.4:54286 on port 1883.
+1773995028: Client mqttjs_7265cc69 [172.19.0.4:54286] disconnected: not authorised.
+1773995029: New connection from 172.19.0.4:54300 on port 1883.
+1773995029: Client mqttjs_7265cc69 [172.19.0.4:54300] disconnected: not authorised.
+1773995030: New connection from 172.19.0.4:54302 on port 1883.
+1773995030: Client mqttjs_7265cc69 [172.19.0.4:54302] disconnected: not authorised.
+1773995031: New connection from 172.19.0.4:49244 on port 1883.
+1773995031: Client mqttjs_7265cc69 [172.19.0.4:49244] disconnected: not authorised.
+1773995032: New connection from 172.19.0.4:49256 on port 1883.
+1773995032: Client mqttjs_7265cc69 [172.19.0.4:49256] disconnected: not authorised.
+1773995033: New connection from 172.19.0.4:49270 on port 1883.
+1773995033: Client mqttjs_7265cc69 [172.19.0.4:49270] disconnected: not authorised.
+1773995034: New connection from 172.19.0.4:49274 on port 1883.
+1773995034: Client mqttjs_7265cc69 [172.19.0.4:49274] disconnected: not authorised.
+1773995035: New connection from 172.19.0.4:49280 on port 1883.
+1773995035: Client mqttjs_7265cc69 [172.19.0.4:49280] disconnected: not authorised.
+1773995036: New connection from 172.19.0.4:49292 on port 1883.
+1773995036: Client mqttjs_7265cc69 [172.19.0.4:49292] disconnected: not authorised.
+1773995037: New connection from 172.19.0.4:49302 on port 1883.
+1773995037: Client mqttjs_7265cc69 [172.19.0.4:49302] disconnected: not authorised.
+1773995037: mosquitto version 2.1.2 terminating
+1773995037: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773995037: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773995037: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773995037: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773995043: mosquitto version 2.1.2 starting
+1773995043: Config loaded from /mosquitto/config/mosquitto.conf.
+1773995043: Bridge support available.
+1773995043: Persistence support available.
+1773995043: TLS support available.
+1773995043: TLS-PSK support available.
+1773995043: Websockets support available.
+1773995043: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773995043: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773995043: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773995043: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773995043: Opening ipv4 listen socket on port 1883.
+1773995043: Opening ipv6 listen socket on port 1883.
+1773995043: Opening ipv4 listen socket on port 9001.
+1773995043: Opening ipv6 listen socket on port 9001.
+1773995043: mosquitto version 2.1.2 running
+1773995045: New connection from 172.19.0.4:46810 on port 1883.
+1773995045: New client connected from 172.19.0.4:46810 as mqttjs_370b3d18 (p4, c1, k60, u'Flame_Detection_System').
+1773995858: New connection from 172.19.0.1:60634 on port 1883.
+1773995858: New client connected from 172.19.0.1:60634 as Sensor-96c2 (p4, c1, k15, u'Flame_Detection_System').
+1773995882: New connection from 172.19.0.1:38768 on port 1883.
+1773995882: New client connected from 172.19.0.1:38768 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1773996473: mosquitto version 2.1.2 terminating
+1773996473: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773996473: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773996473: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773996473: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773996475: mosquitto version 2.1.2 starting
+1773996475: Config loaded from /mosquitto/config/mosquitto.conf.
+1773996475: Bridge support available.
+1773996475: Persistence support available.
+1773996475: TLS support available.
+1773996475: TLS-PSK support available.
+1773996475: Websockets support available.
+1773996475: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773996475: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773996475: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773996475: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773996475: Opening ipv4 listen socket on port 1883.
+1773996475: Opening ipv6 listen socket on port 1883.
+1773996475: Opening ipv4 listen socket on port 9001.
+1773996475: Opening ipv6 listen socket on port 9001.
+1773996475: mosquitto version 2.1.2 running
+1773996475: New connection from 172.19.0.1:50178 on port 1883.
+1773996475: New client connected from 172.19.0.1:50178 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1773996477: New connection from 172.19.0.4:41454 on port 1883.
+1773996477: New client connected from 172.19.0.4:41454 as mqttjs_5be49347 (p4, c1, k60, u'Flame_Detection_System').
+1773996484: New connection from 172.19.0.1:53086 on port 1883.
+1773996484: New client connected from 172.19.0.1:53086 as Sensor-e6d6 (p4, c1, k15, u'Flame_Detection_System').
+1773996708: New connection from 172.19.0.1:42066 on port 1883.
+1773996708: New client connected from 172.19.0.1:42066 as Sensor-70ae (p4, c1, k15, u'Flame_Detection_System').
+1773996711: Client Sensor-e6d6 [172.19.0.1:53086] disconnected: connection closed by client.
+1773996984: Client Sensor-70ae [172.19.0.1:42066] disconnected: exceeded timeout.
+1773996985: New connection from 172.19.0.1:48518 on port 1883.
+1773996985: New client connected from 172.19.0.1:48518 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1773997106: Client mqttjs_5be49347 [172.19.0.4:41454] disconnected: connection closed by client.
+1773997108: New connection from 172.19.0.4:34970 on port 1883.
+1773997108: New client connected from 172.19.0.4:34970 as mqttjs_d31c08ee (p4, c1, k60, u'Flame_Detection_System').
+1773997836: Client mqttjs_d31c08ee [172.19.0.4:34970] disconnected: connection closed by client.
+1773997838: New connection from 172.19.0.4:50034 on port 1883.
+1773997838: New client connected from 172.19.0.4:50034 as mqttjs_1e0f6756 (p4, c1, k60, u'Flame_Detection_System').
+1773997839: Client mqttjs_1e0f6756 [172.19.0.4:50034] disconnected: connection closed by client.
+1773997842: New connection from 172.19.0.4:58532 on port 1883.
+1773997842: New client connected from 172.19.0.4:58532 as mqttjs_23fa6717 (p4, c1, k60, u'Flame_Detection_System').
+1773997847: Client mqttjs_23fa6717 [172.19.0.4:58532] disconnected: connection closed by client.
+1773997848: New connection from 172.19.0.4:44948 on port 1883.
+1773997848: New client connected from 172.19.0.4:44948 as mqttjs_4faca362 (p4, c1, k60, u'Flame_Detection_System').
+1773998066: mosquitto version 2.1.2 terminating
+1773998066: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773998066: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773998066: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773998066: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773998069: mosquitto version 2.1.2 starting
+1773998069: Config loaded from /mosquitto/config/mosquitto.conf.
+1773998069: Bridge support available.
+1773998069: Persistence support available.
+1773998069: TLS support available.
+1773998069: TLS-PSK support available.
+1773998069: Websockets support available.
+1773998069: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773998069: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773998069: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773998069: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773998069: Opening ipv4 listen socket on port 1883.
+1773998069: Opening ipv6 listen socket on port 1883.
+1773998069: Opening ipv4 listen socket on port 9001.
+1773998069: Opening ipv6 listen socket on port 9001.
+1773998069: mosquitto version 2.1.2 running
+1773998069: New connection from 172.19.0.1:52810 on port 1883.
+1773998069: New client connected from 172.19.0.1:52810 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1773998070: New connection from 172.19.0.4:58626 on port 1883.
+1773998070: New client connected from 172.19.0.4:58626 as mqttjs_74b0a6f5 (p4, c1, k60, u'Flame_Detection_System').
+1773998072: Client mqtt-explorer-e252d969 [172.19.0.1:52810] disconnected.
+1773998073: New connection from 172.19.0.1:52818 on port 1883.
+1773998073: New client connected from 172.19.0.1:52818 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1773998074: New connection from 172.19.0.1:52824 on port 1883.
+1773998074: New client connected from 172.19.0.1:52824 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1773998327: mosquitto version 2.1.2 terminating
+1773998327: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773998327: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773998327: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773998327: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1773998329: mosquitto version 2.1.2 starting
+1773998329: Config loaded from /mosquitto/config/mosquitto.conf.
+1773998329: Bridge support available.
+1773998329: Persistence support available.
+1773998329: TLS support available.
+1773998329: TLS-PSK support available.
+1773998329: Websockets support available.
+1773998329: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773998329: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773998329: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773998329: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773998329: Opening ipv4 listen socket on port 1883.
+1773998329: Opening ipv6 listen socket on port 1883.
+1773998329: Opening ipv4 listen socket on port 9001.
+1773998329: Opening ipv6 listen socket on port 9001.
+1773998329: mosquitto version 2.1.2 running
+1773998329: New connection from 172.19.0.1:34086 on port 1883.
+1773998329: New client connected from 172.19.0.1:34086 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1773998329: New connection from 172.19.0.1:34084 on port 1883.
+1773998329: New client connected from 172.19.0.1:34084 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1773998329: Client YoloUno-Trung [172.19.0.1:34084] disconnected: connection closed by client.
+1773998330: New connection from 172.19.0.4:54990 on port 1883.
+1773998330: New client connected from 172.19.0.4:54990 as mqttjs_d9f1e03c (p4, c1, k60, u'Flame_Detection_System').
+1773998338: New connection from 172.19.0.1:43714 on port 1883.
+1773998338: New client connected from 172.19.0.1:43714 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1773998443: Client YoloUno-Trung [172.19.0.1:43714] disconnected: exceeded timeout.
+1774001634: New connection from 172.19.0.1:38072 on port 1883.
+1774001634: New client connected from 172.19.0.1:38072 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774001669: Client mqttjs_d9f1e03c [172.19.0.4:54990] disconnected: connection closed by client.
+1774001669: mosquitto version 2.1.2 terminating
+1774001669: Saving in-memory database to /mosquitto/data//moquistto.db.
+1774001669: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1774001669: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1774001669: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1774001676: mosquitto version 2.1.2 starting
+1774001676: Config loaded from /mosquitto/config/mosquitto.conf.
+1774001676: Bridge support available.
+1774001676: Persistence support available.
+1774001676: TLS support available.
+1774001676: TLS-PSK support available.
+1774001676: Websockets support available.
+1774001676: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1774001676: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1774001676: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1774001676: Plugin builtin-security has registered to receive 'basic-auth' events.
+1774001676: Opening ipv4 listen socket on port 1883.
+1774001676: Opening ipv6 listen socket on port 1883.
+1774001676: Opening ipv4 listen socket on port 9001.
+1774001676: Opening ipv6 listen socket on port 9001.
+1774001676: mosquitto version 2.1.2 running
+1774001677: New connection from 172.19.0.1:41126 on port 1883.
+1774001677: New client connected from 172.19.0.1:41126 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774001693: New connection from 172.19.0.1:53478 on port 1883.
+1774001693: New client connected from 172.19.0.1:53478 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1774001775: New connection from 172.19.0.1:41960 on port 1883.
+1774001775: Client YoloUno-Trung [172.19.0.1:41126] disconnected: session taken over.
+1774001775: New client connected from 172.19.0.1:41960 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774001880: New connection from 172.19.0.1:41448 on port 1883.
+1774001880: Client YoloUno-Trung [172.19.0.1:41960] disconnected: session taken over.
+1774001880: New client connected from 172.19.0.1:41448 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774002141: New connection from 172.19.0.1:40072 on port 1883.
+1774002141: Client YoloUno-Trung [172.19.0.1:41448] disconnected: session taken over.
+1774002141: New client connected from 172.19.0.1:40072 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774002166: New connection from 172.19.0.1:48600 on port 1883.
+1774002166: Client YoloUno-Trung [172.19.0.1:40072] disconnected: session taken over.
+1774002166: New client connected from 172.19.0.1:48600 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774002321: Client YoloUno-Trung [172.19.0.1:48600] disconnected: exceeded timeout.
+1774002337: New connection from 172.19.0.1:42830 on port 1883.
+1774002337: New client connected from 172.19.0.1:42830 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774002410: New connection from 172.19.0.1:55622 on port 1883.
+1774002410: Client YoloUno-Trung [172.19.0.1:42830] disconnected: session taken over.
+1774002410: New client connected from 172.19.0.1:55622 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774002412: Client mqtt-explorer-e252d969 [172.19.0.1:53478] disconnected.
+1774002422: mosquitto version 2.1.2 terminating
+1774002422: Saving in-memory database to /mosquitto/data//moquistto.db.
+1774002422: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1774002422: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1774002422: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
+1774002427: mosquitto version 2.1.2 starting
+1774002427: Config loaded from /mosquitto/config/mosquitto.conf.
+1774002427: Bridge support available.
+1774002427: Persistence support available.
+1774002427: TLS support available.
+1774002427: TLS-PSK support available.
+1774002427: Websockets support available.
+1774002427: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1774002427: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1774002427: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1774002427: Plugin builtin-security has registered to receive 'basic-auth' events.
+1774002427: Opening ipv4 listen socket on port 1883.
+1774002427: Opening ipv6 listen socket on port 1883.
+1774002427: Opening ipv4 listen socket on port 9001.
+1774002427: Opening ipv6 listen socket on port 9001.
+1774002427: mosquitto version 2.1.2 running
+1774002432: New connection from 172.19.0.1:35302 on port 1883.
+1774002432: New client connected from 172.19.0.1:35302 as YoloUno-Trung (p4, c1, k15, u'Flame_Detection_System').
+1774002526: New connection from 172.19.0.4:40586 on port 1883.
+1774002526: New client connected from 172.19.0.4:40586 as mqttjs_9688be5d (p4, c1, k60, u'Flame_Detection_System').
+1774002528: New connection from 172.19.0.1:53298 on port 1883.
+1774002528: New client connected from 172.19.0.1:53298 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1774002989: Client mqtt-explorer-e252d969 [172.19.0.1:53298] disconnected.
+1774002995: Client mqttjs_9688be5d [172.19.0.4:40586] disconnected: connection closed by client.
+1774002997: mosquitto version 2.1.2 terminating
+1774002997: Saving in-memory database to /mosquitto/data//moquistto.db.
+1774002997: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1774002997: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1774002997: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+

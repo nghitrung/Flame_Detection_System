@@ -1,9 +1,0 @@
-.emergency-alert {
-  animation: pulse-red 1s infinite;
-}
-
-@keyframes pulse-red {
-  0% { background-color: #ff4d4d; }
-  50% { background-color: #b30000; }
-  100% { background-color: #ff4d4d; }
-}
