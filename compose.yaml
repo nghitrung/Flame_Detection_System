@@ -1,0 +1,20 @@
+services:
+  mqtt-broker:
+    build:
+      context:  ./mqtt/mosquitto
+      dockerfile: Dockerfile
+    container_name: mosquitto-broker
+    restart: always
+    volumes:
+      - ./mqtt/mosquitto/config:/mosquitto/config
+      - ./mqtt/mosquitto/data:/mosquitto/data
+      - ./mqtt/mosquitto/log:/mosquitto/log
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    networks:
+      - flame_network
+
+networks:
+  flame_network:
+  driver: bridge

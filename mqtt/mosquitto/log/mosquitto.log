@@ -1390,3 +1390,36 @@ To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
 
 1773849220: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
 
+1773930582: mosquitto version 2.1.2 starting
+1773930582: Config loaded from /mosquitto/config/mosquitto.conf.
+1773930582: Bridge support available.
+1773930582: Persistence support available.
+1773930582: TLS support available.
+1773930582: TLS-PSK support available.
+1773930582: Websockets support available.
+1773930582: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+
+1773930582: Warning: File /mosquitto/config/pwfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/pwfile`.
+
+1773930582: Warning: File /mosquitto/config/pwfile group is not mosquitto. Future versions will refuse to load this file.
+
+1773930582: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773930582: Opening ipv4 listen socket on port 1883.
+1773930582: Opening ipv6 listen socket on port 1883.
+1773930582: Opening ipv4 listen socket on port 9001.
+1773930582: Opening ipv6 listen socket on port 9001.
+1773930582: mosquitto version 2.1.2 running
+1773930794: New connection from 172.19.0.1:34382 on port 1883.
+1773930794: New client connected from 172.19.0.1:34382 as mqtt-explorer-e252d969 (p4, c1, k60, u'Flame_Detection_System').
+1773930901: New connection from 172.19.0.1:34360 on port 1883.
+1773930901: New client connected from 172.19.0.1:34360 as Sensor-5498 (p4, c1, k15, u'Flame_Detection_System').
+1773931166: mosquitto version 2.1.2 terminating
+1773931166: Saving in-memory database to /mosquitto/data//moquistto.db.
+1773931166: Warning: File /mosquitto/data//moquistto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//moquistto.db.new`.
+
+1773931166: Warning: File /mosquitto/data//moquistto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//moquistto.db.new`.
+
+1773931166: Warning: File /mosquitto/data//moquistto.db.new group is not mosquitto. Future versions will refuse to load this file.
+
