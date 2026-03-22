@@ -5,6 +5,9 @@
 #include "config.h"
 #include "smoke_setup.h"
 #include "flame_setup.h"
+#include "pump.h"
+#include "output.h"
+#include "DHT+LCD.h"
 
 void setup() {
     Serial.begin(115200);
@@ -23,6 +26,8 @@ void setup() {
         xTaskCreate(vTaskSmoke, "Smoke_Task", 4096, NULL, 1, NULL);
 
         xTaskCreate(vTaskFlame, "Flame_Task", 4096, NULL, 1, NULL);
+
+        xTaskCreate(temp_humi_monitor, "DHT20",   4096, NULL, 2, NULL);
         
         Serial.println("System is working!");
     } else {

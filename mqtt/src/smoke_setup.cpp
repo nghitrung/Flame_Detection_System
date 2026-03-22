@@ -27,6 +27,12 @@ void vTaskSmoke(void *pvParameter) {
 
                 Serial.printf("\nCO1: %.2f | LPG1: %.2f | Smoke1: %.2f ppm", smoke[0][0], smoke[0][1], smoke[0][2]);
                 Serial.printf("\nCO2 %.2f | LPG2: %.2f | Smoke2: %.2f ppm", smoke[1][0], smoke[1][1], smoke[1][2]);
+
+                if ((smoke1 > SMOKE_THRESHOLD)|(smoke2 > SMOKE_THRESHOLD)) {
+            gas_alert = true;
+        } else {
+            gas_alert = false;
+        }
             }
             xSemaphoreGive(xSensorMutex);
         }
