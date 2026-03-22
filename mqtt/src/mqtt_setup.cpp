@@ -38,37 +38,49 @@ String packageData(const char* topic) {
 }
 
 void vTaskMqtt(void* pvParameters) {
+    bool log = false;
     client.setServer(mqtt_server, 1883);
     while (1) {
-        if (WiFi.status() == WL_CONNECTED) {
-            if (!client.connected()) {
-                if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
-                    Serial.print("\nMQTT: Connecting...");
-                    String clientID = "YoloUno-Trung";
-                    if (client.connect(clientID.c_str(), "Flame_Detection_System", "123")){
-                        Serial.print("\nSUCCESS");
+        if (log) {
+            if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
+                Serial.print("\nMQTT still connected!");
+
+                if (millis() - lastPublishTime >= publishInterval) {
+                    lastPublishTime = millis();
+
+                    packageData(TOPIC_SMOKE);
+
+                    packageData(TOPIC_FLAME);
+
+                    Serial.print("\n Data is sent!");
+                }
+
+                xSemaphoreGive(xMqttMutex);
+            }
+        } else {
+            if (WiFi.status() == WL_CONNECTED) {
+                if (!client.connected()) {
+                    if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
+                        Serial.print("\nMQTT: Connecting...");
+                        String clientID = "Sensor-" + String(random(0xffff), HEX);
+                        if (client.connect(clientID.c_str())){
+                            Serial.print("\nMQTT Server"); Serial.println(mqtt_server);
+                            log = true;
+                        } else {
+                            Serial.print("\nMQTT: Error = "); Serial.println(client.state());
+                            log = false;
+                        }
+                        xSemaphoreGive(xMqttMutex);
                     } else {
-                        Serial.print("\nFAILED, rc= "); Serial.println(client.state());
+                        Serial.print("\nWaiting mutex ...");
+                        log = false;
                     }
-                    xSemaphoreGive(xMqttMutex);
                 } 
             } else {
-                if (xMqttMutex != NULL && xSemaphoreTake(xMqttMutex, portMAX_DELAY) == pdPASS) {
-                    client.loop();
-
-                    if (millis() - lastPublishTime >= publishInterval) {
-                        lastPublishTime = millis();
-
-                        packageData(TOPIC_SMOKE);
-
-                        packageData(TOPIC_FLAME);
-                    }
-
-                    xSemaphoreGive(xMqttMutex);
-                }
+                Serial.print("\nWaiting WIFI ...");
+                log = false;
             }
         }
-
         vTaskDelay(pdMS_TO_TICKS(500)); // MQTT beat
     }
 }
