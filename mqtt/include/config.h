@@ -1,8 +1,8 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define ssid "RD-SEAI_2.4G"
-#define password ""
+#define ssid "ss"
+#define password "22052005"
 #define mqtt_server "broker.hivemq.com"
 
 // === TOPICS ===

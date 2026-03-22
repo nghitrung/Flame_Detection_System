@@ -5,27 +5,19 @@ void pump_control(void *pvParameters) {
   pinMode(PUMP_PIN, OUTPUT);
   digitalWrite(PUMP_PIN, LOW); 
   while (1) {
-    int raw = analogRead(SMOKE1_PIN);
+    int raw1 = analogRead(SMOKE1_PIN);
     for (int i = 0; i<3;i++)
-    smoke[0][i] = raw;
-    int raw = analogRead(SMOKE2_PIN);
+    smoke[0][i] = raw1;
+    int raw2 = analogRead(SMOKE2_PIN);
     for (int j = 0; j<3;j++)
-    smoke[1][j] = raw; 
+    smoke[1][j] = raw2; 
 
-    Serial.printf("smoke raw = %d, pump_on=%d\n", raw, pump_on ? 1 : 0);
-    if (raw >= 2400) {
-      if (pump_on) {
-        Serial.println("[PUMP] Moisture high -> auto stop & latch OFF");
-      }
-      pump_on = false;          
-      analogWrite(PUMP_PIN, 0);
-    } else {
-      if (pump_on) {
-        analogWrite(PUMP_PIN, 250);   
-      } else {
-        analogWrite(PUMP_PIN, 0);    
-      }
-    }
+    const bool trigger = fire_alert && gas_alert && (glob_temperature > 45.0f);
+    pump_on = trigger;
+    analogWrite(PUMP_PIN, trigger ? 250 : 0);
+
+    Serial.printf("pump=%d fire=%d gas=%d temp=%.2f\n",
+                  pump_on ? 1 : 0, fire_alert ? 1 : 0, gas_alert ? 1 : 0, glob_temperature);
     vTaskDelay(pdMS_TO_TICKS(1000));
   }
 }
