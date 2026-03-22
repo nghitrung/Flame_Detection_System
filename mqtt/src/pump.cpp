@@ -5,19 +5,25 @@ void pump_control(void *pvParameters) {
   pinMode(PUMP_PIN, OUTPUT);
   digitalWrite(PUMP_PIN, LOW); 
   while (1) {
-    int raw1 = analogRead(SMOKE1_PIN);
-    for (int i = 0; i<3;i++)
-    smoke[0][i] = raw1;
-    int raw2 = analogRead(SMOKE2_PIN);
-    for (int j = 0; j<3;j++)
-    smoke[1][j] = raw2; 
+    const uint32_t nowMs = millis();
+    if (manual_pump_on && manual_pump_until_ms > 0 && nowMs > manual_pump_until_ms) {
+      manual_pump_on = false;
+      manual_pump_until_ms = 0;
+    }
+    if (manual_emergency_on && manual_emergency_until_ms > 0 && nowMs > manual_emergency_until_ms) {
+      manual_emergency_on = false;
+      manual_emergency_until_ms = 0;
+    }
 
-    const bool trigger = fire_alert && gas_alert && (glob_temperature > 45.0f);
+    const bool autoTrigger = fire_alert && gas_alert && (glob_temperature > 45.0f);
+    const bool manualTrigger = manual_pump_on || manual_emergency_on;
+    const bool trigger = autoTrigger || manualTrigger;
     pump_on = trigger;
     analogWrite(PUMP_PIN, trigger ? 250 : 0);
 
-    Serial.printf("pump=%d fire=%d gas=%d temp=%.2f\n",
-                  pump_on ? 1 : 0, fire_alert ? 1 : 0, gas_alert ? 1 : 0, glob_temperature);
+    Serial.printf("pump=%d fire=%d gas=%d temp=%.2f manual=%d\n",
+                  pump_on ? 1 : 0, fire_alert ? 1 : 0, gas_alert ? 1 : 0,
+                  glob_temperature, manualTrigger ? 1 : 0);
     vTaskDelay(pdMS_TO_TICKS(1000));
   }
 }

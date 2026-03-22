@@ -35,6 +35,8 @@ void setup() {
 
         xTaskCreate(buzz_task, "Buzz_Task", 2048, NULL, 1, NULL);
 
+        xTaskCreate(button_task, "Button_Task", 2048, NULL, 2, NULL);
+
         Serial.println("System is working!");
     } else {
         Serial.println("Failed to create mutex!");
