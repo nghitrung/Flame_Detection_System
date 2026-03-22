@@ -27,7 +27,7 @@ void setup() {
 
         xTaskCreate(vTaskFlame, "Flame_Task", 4096, NULL, 1, NULL);
 
-        xTaskCreate(temp_humi_monitor, "DHT20",   4096, NULL, 2, NULL);
+        xTaskCreate(temp_monitor, "DHT20",   4096, NULL, 2, NULL);
 
         xTaskCreate(pump_control, "Pump_Task", 4096, NULL, 2, NULL);
 

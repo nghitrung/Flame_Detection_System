@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Flame, Wind, Droplets, AlertTriangle } from 'lucide-react';
+import { Flame, Wind, AlertTriangle } from 'lucide-react';
 
 const API_URL = 'http://localhost:5000/api/sensors/latest';
 
 function App() {
   const [data, setData] = useState({
-    flame1: 0, flame2: 0, smoke1: 0, smoke2: 0, humid: 0
+    flame1: 0, flame2: 0, smoke1: 0, smoke2: 0
   });
   const [loading, setLoading] = useState(true);
 
@@ -64,7 +64,6 @@ function App() {
         <SensorCard title="Lửa 2 (Flame)" value={data.flame2} icon={Flame} color="#e67e22" />
         <SensorCard title="Khói 1 (Smoke)" value={data.smoke1} icon={Wind} color="#95a5a6" />
         <SensorCard title="Khói 2 (Smoke)" value={data.smoke2} icon={Wind} color="#95a5a6" />
-        <SensorCard title="Độ ẩm (Humid)" value={data.humid} icon={Droplets} color="#3498db" unit="%" />
       </div>
 
       {/* Thông báo tổng quát */}

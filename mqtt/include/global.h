@@ -25,7 +25,6 @@ extern float smoke[2][3]; /*[{CO_PER1, LPG_PER1, SMOKE_PER1}
 extern float flame[2]; // [Flame1, Flame2]
 //DHT20_value
 extern float glob_temperature;
-extern float glob_humidity;
 extern volatile bool pump_on;
 extern volatile bool fire_alert;
 extern volatile bool ledbuzzon;

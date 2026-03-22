@@ -32,13 +32,12 @@ mqttClient.on('message', (topic, message) => {
     const data = JSON.parse(message.toString());
     
     // Mapping to import to the database
-    const query = `INSERT INTO data_sensors (flame1, flame2, smoke1, smoke2, humid) VALUES (?, ?, ?, ?, ?)`;
+    const query = `INSERT INTO data_sensors (flame1, flame2, smoke1, smoke2) VALUES (?, ?, ?, ?)`;
     const values = [
       data.f1 || 0, 
       data.f2 || 0, 
       data.s1 || 0, 
-      data.s2 || 0, 
-      data.h || 0
+      data.s2 || 0
     ];
 
     db.query(query, values, (err) => {

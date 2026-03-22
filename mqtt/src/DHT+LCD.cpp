@@ -23,7 +23,7 @@ static void scanI2cBus() {
   Serial.println();
 }
 
-void temp_humi_monitor(void *pvParameters) {
+void temp_monitor(void *pvParameters) {
   Serial.printf("\n[DHT] Task start (SDA=%d, SCL=%d)\n", SDA_PIN, SCL_PIN);
   if ((SDA_PIN == FLAME1_ANAPIN) || (SDA_PIN == FLAME2_ANAPIN) ||
       (SCL_PIN == FLAME1_ANAPIN) || (SCL_PIN == FLAME2_ANAPIN)) {
@@ -53,12 +53,9 @@ void temp_humi_monitor(void *pvParameters) {
   }
 
   char lineBuf[32];
-  int zeroReadCount = 0;
-
   while(1) {
     if (!isI2cDeviceReady(0x38)) {
       glob_temperature = -1.0f;
-      glob_humidity = -1.0f;
       Serial.println("[DHT] No I2C response from DHT20 (0x38)");
       vTaskDelay(pdMS_TO_TICKS(2000));
       continue;
@@ -72,33 +69,18 @@ void temp_humi_monitor(void *pvParameters) {
 
     dht20.read();
     float temperature = dht20.getTemperature();
-    float humidity    = dht20.getHumidity();
-
-    if (temperature == 0.0f && humidity == 0.0f) {
-      zeroReadCount++;
-    } else {
-      zeroReadCount = 0;
-    }
-
-    if (isnan(temperature) || isnan(humidity) || zeroReadCount >= 3) {
-      temperature = humidity = -1;
-      if (zeroReadCount >= 3) {
-        Serial.println("[DHT] Consecutive zero reads, check wiring/address");
-      }
+    if (isnan(temperature)) {
+      temperature = -1;
     }
 
     glob_temperature = temperature;
-    glob_humidity    = humidity;
 
-    Serial.printf("[DHT] Humidity: %.1f%%  Temp: %.1f C\n", humidity, temperature);
+    Serial.printf("[DHT] Temp: %.1f C\n", temperature);
 
     if (lcdReady) {
       lcd.clear();
       lcd.setCursor(0, 0);
       snprintf(lineBuf, sizeof(lineBuf), "Temp: %4.1f C", temperature);
-      lcd.print(lineBuf);
-      lcd.setCursor(0, 1);
-      snprintf(lineBuf, sizeof(lineBuf), "Humid: %4.1f %%", humidity);
       lcd.print(lineBuf);
     }
 

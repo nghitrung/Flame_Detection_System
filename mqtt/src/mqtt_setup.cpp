@@ -98,7 +98,6 @@ String packageData(const char* topic) {
     } else if (String(topic) == TOPIC_DHT20) {
         JsonObject dht_obj = doc["dht20_data"].to<JsonObject>();
         dht_obj["TEMP"] = glob_temperature;
-        dht_obj["HUMIDITY"] = glob_humidity;
     }
     serializeJson(doc, buffer);
     client.publish(topic, buffer);
