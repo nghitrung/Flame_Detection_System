@@ -2,9 +2,9 @@
 .idea/
 
 # Bỏ qua toàn bộ file dữ liệu (bao gồm cả file moquistto.db) nhưng giữ lại thư mục
-data/*
-!data/.gitkeep
+mosquitto/data/*
+!mosquitto/data/.gitkeep
 
 # Bỏ qua toàn bộ file log nhưng giữ lại thư mục
-log/*
-!log/.gitkeep
+mosquitto/log/*
+!mosquitto/log/.gitkeep

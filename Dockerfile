@@ -1,8 +1,8 @@
 FROM eclipse-mosquitto:latest
 
-COPY config /mosquitto/config
+# Bưng trọn ổ config (có cả pwfile) từ thư mục mqtt con vào container
+COPY ./mosquitto/config/ /mosquitto/config/
 
-# encode password
 RUN mosquitto_passwd -U /mosquitto/config/pwfile
 
 RUN chown -R mosquitto:mosquitto /mosquitto
